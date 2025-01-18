@@ -1,0 +1,54 @@
+function rematch:game/gather/reset_bees
+function rematch:game/gather/reset_berries
+function rematch:game/gather/reset_bookshelves
+function rematch:game/gather/reset_purple_bees
+function rematch:game/gather/reset_trees
+function rematch:game/gather/reset_wolves
+scoreboard players reset @a berries_picked
+
+#chests
+execute positioned 1373 70 1191 run kill @e[distance=..4,tag=chest]
+execute positioned 1379 81 1221 run kill @e[distance=..4,tag=chest]
+execute positioned 1355 70 1234 run kill @e[distance=..4,tag=chest]
+execute positioned 1367 71 1249 run kill @e[distance=..4,tag=chest]
+execute positioned 1354 69 1251 run kill @e[distance=..4,tag=chest]
+execute positioned 1366 73 1281 run kill @e[distance=..4,tag=chest]
+execute positioned 1391 76 1258 run kill @e[distance=..4,tag=chest]
+execute positioned 1427 69 1285 run kill @e[distance=..4,tag=chest]
+execute positioned 1400 73 1277 run kill @e[distance=..4,tag=chest]
+execute positioned 1393 73 1269 run kill @e[distance=..4,tag=chest]
+execute positioned 1395 73 1286 run kill @e[distance=..4,tag=chest]
+execute positioned 1400 73 1291 run kill @e[distance=..4,tag=chest]
+execute positioned 1385 73 1311 run kill @e[distance=..4,tag=chest]
+execute positioned 1429 69 1266 run kill @e[distance=..4,tag=chest]
+execute positioned 1435 69 1306 run kill @e[distance=..4,tag=chest]
+execute positioned 1428 85 1337 run kill @e[distance=..4,tag=chest]
+execute positioned 1418 85 1350 run kill @e[distance=..4,tag=chest]
+execute positioned 1400 69 1358 run kill @e[distance=..4,tag=chest]
+execute positioned 1388 69 1362 run kill @e[distance=..4,tag=chest]
+execute positioned 1376 73 1352 run kill @e[distance=..4,tag=chest]
+execute positioned 1388 78 1322 run kill @e[distance=..4,tag=chest]
+execute positioned 1382 78 1327 run kill @e[distance=..4,tag=chest]
+execute positioned 1380 83 1330 run kill @e[distance=..4,tag=chest]
+execute positioned 1384 83 1329 run kill @e[distance=..4,tag=chest]
+execute positioned 1391 83 1330 run kill @e[distance=..4,tag=chest]
+execute positioned 1385 73 1332 run kill @e[distance=..4,tag=chest]
+execute positioned 1361 73 1324 run kill @e[distance=..4,tag=chest]
+execute positioned 1347 73 1322 run kill @e[distance=..4,tag=chest]
+execute positioned 1343 74 1339 run kill @e[distance=..4,tag=chest]
+execute positioned 1359 74 1356 run kill @e[distance=..4,tag=chest]
+execute positioned 1354 74 1368 run kill @e[distance=..4,tag=chest]
+execute positioned 1341 73 1398 run kill @e[distance=..4,tag=chest]
+execute positioned 1351 69 1424 run kill @e[distance=..4,tag=chest]
+execute positioned 1326 69 1416 run kill @e[distance=..4,tag=chest]
+execute positioned 1322 69 1404 run kill @e[distance=..4,tag=chest]
+execute positioned 1358 69 1405 run kill @e[distance=..4,tag=chest]
+execute positioned 1340 75 1372 run kill @e[distance=..4,tag=chest]
+execute positioned 1315 80 1367 run kill @e[distance=..4,tag=chest]
+execute positioned 1310 69 1348 run kill @e[distance=..4,tag=chest]
+execute positioned 1321 71 1301 run kill @e[distance=..4,tag=chest]
+execute positioned 1310 81 1329 run kill @e[distance=..4,tag=chest]
+execute positioned 1301 69 1312 run kill @e[distance=..4,tag=chest]
+execute positioned 1326 71 1288 run kill @e[distance=..4,tag=chest]
+execute positioned 1344 72 1308 run kill @e[distance=..4,tag=chest]
+return 1

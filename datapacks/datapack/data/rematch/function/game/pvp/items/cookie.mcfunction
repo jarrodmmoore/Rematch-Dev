@@ -1,0 +1,9 @@
+scoreboard players add @s eatCookie2 1
+execute unless entity @s[nbt={Inventory:[{id:"minecraft:cookie",components:{"minecraft:custom_data":{giveSpeed:1b}}}]}] run clear @s minecraft:cookie[minecraft:custom_data~{giveSpeed:1b}]
+execute unless entity @s[nbt={Inventory:[{id:"minecraft:cookie",components:{"minecraft:custom_data":{giveSpeed:1b}}}]}] run item replace entity @s armor.head with minecraft:cookie[minecraft:attribute_modifiers={modifiers:[{type:"minecraft:movement_speed",operation:"add_value",id:"minecraft:e6d3b525-c8c3-4f40-9874-09530c9a887a",amount:0.05d}]},minecraft:custom_name='{"bold":true,"color":"yellow","extra":[{"bold":true,"color":"white","text":"u"},{"bold":true,"color":"yellow","text":"g"},{"bold":true,"color":"white","text":"a"},{"bold":true,"color":"yellow","text":"r"},{"bold":true,"color":"white","text":" H"},{"bold":true,"color":"yellow","text":"i"},{"bold":true,"color":"white","text":"g"},{"bold":true,"color":"yellow","text":"h"},{"bold":true,"color":"white","text":"!"}],"text":"S"}',minecraft:item_name='{"extra":["Sugar High!"],"text":"EMU"}',minecraft:hide_additional_tooltip={},minecraft:custom_data={giveSpeed:1b,emu_lock_name:'{"bold":true,"color":"yellow","extra":[{"bold":true,"color":"white","text":"u"},{"bold":true,"color":"yellow","text":"g"},{"bold":true,"color":"white","text":"a"},{"bold":true,"color":"yellow","text":"r"},{"bold":true,"color":"white","text":" H"},{"bold":true,"color":"yellow","text":"i"},{"bold":true,"color":"white","text":"g"},{"bold":true,"color":"yellow","text":"h"},{"bold":true,"color":"white","text":"!"}],"text":"S"}'}] 1
+
+execute if entity @s[scores={eatCookie2=100}] run clear @s minecraft:cookie[minecraft:custom_data~{giveSpeed:1b}]
+execute if entity @s[scores={eatCookie2=100}] run scoreboard players reset @s eatCookie2
+
+execute if entity @s[scores={eatCookie=1..}] run scoreboard players reset @s eatCookie
+return 1

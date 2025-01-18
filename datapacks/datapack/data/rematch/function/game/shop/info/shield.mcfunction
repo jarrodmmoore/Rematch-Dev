@@ -1,0 +1,2 @@
+tellraw @s ["",{"text":"\n\n\n","type":"text"},{"text":"[Sturdy Shield]","bold":true,"color":"dark_gray","type":"text"},{"text":"\n\u2b25 A simple shield for blocking weapon attacks","type":"text"}]
+return 1

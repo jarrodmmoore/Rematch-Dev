@@ -1,0 +1,2 @@
+tellraw @s ["",{"text":"\n\n\n","type":"text"},{"text":"[Spy Outfit]","bold":true,"color":"black","type":"text"},{"text":"\n\u2b25 Enhanced leather armor. Gives user speed boost.","type":"text"}]
+return 1

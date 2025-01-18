@@ -1,0 +1,31 @@
+setblock -27 53 -16 minecraft:soul_lantern
+setblock -25 54 -24 minecraft:soul_lantern
+setblock -19 55 -31 minecraft:soul_lantern
+setblock -10 56 -27 minecraft:soul_lantern
+setblock -6 56 -36 minecraft:soul_lantern
+setblock 5 59 -34 minecraft:soul_lantern
+setblock -3 54 -17 minecraft:soul_lantern
+setblock 6 54 -14 minecraft:soul_lantern
+setblock 14 52 -15 minecraft:soul_lantern
+setblock 28 52 -17 minecraft:soul_lantern
+setblock 37 53 -16 minecraft:soul_lantern
+setblock 22 54 -7 minecraft:soul_lantern
+setblock 7 53 18 minecraft:soul_lantern
+setblock 17 52 19 minecraft:soul_lantern
+setblock 24 51 27 minecraft:soul_lantern
+setblock -4 54 20 minecraft:soul_lantern
+setblock -14 54 26 minecraft:soul_lantern
+setblock -21 55 17 minecraft:soul_lantern
+setblock -19 56 33 minecraft:soul_lantern
+setblock -10 52 37 minecraft:soul_lantern
+setblock -11 52 45 minecraft:soul_lantern
+setblock 0 53 47 minecraft:soul_lantern
+setblock -16 58 10 minecraft:soul_lantern
+setblock -8 58 14 minecraft:soul_lantern
+setblock -4 58 5 minecraft:soul_lantern
+setblock 21 49 22 minecraft:soul_campfire
+setblock -26 64 32 minecraft:soul_campfire
+setblock 43 60 -12 minecraft:soul_campfire
+time set night
+data merge block 35 83 0 {front_text:{messages:['{"text":"","clickEvent":{"action":"run_command","value":"/execute at @a run playsound minecraft:block.fire.extinguish master @s ~ ~ ~ 1 1"},"type":"text"}','{"text":"Switch to","clickEvent":{"action":"run_command","value":"/function rematch:cosmetics/themes/light_mode"},"italic":true,"type":"text"}','{"text":"Light Mode","bold":true,"underlined":true,"type":"text"}','""']}}
+return 1

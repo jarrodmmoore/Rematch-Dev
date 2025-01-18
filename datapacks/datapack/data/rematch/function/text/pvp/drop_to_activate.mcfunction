@@ -1,0 +1,3 @@
+execute unless entity @e[tag=darkHUD,name=Global] run title @s actionbar ["",{"text":"Press ","type":"text"},{"keybind":"key.drop","color":"yellow","type":"keybind"},{"text":" to use your item!","type":"text"}]
+execute if entity @e[tag=darkHUD,name=Global] run title @s actionbar ["",{"text":"Press ","color":"black","type":"text"},{"keybind":"key.drop","color":"yellow","type":"keybind"},{"text":" to use your item!","color":"black","type":"text"}]
+return 1

@@ -1,0 +1,2 @@
+tellraw @s ["",{"text":"\n\n","type":"text"},{"text":"[Lightning Ring]","bold":true,"color":"aqua","type":"text"},{"text":"\n\u2b25 Utility. Creates a ring of electricity that damages players\naround the user.","type":"text"}]
+return 1

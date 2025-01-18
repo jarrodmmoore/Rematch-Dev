@@ -1,0 +1,2 @@
+tellraw @s ["",{"text":"\n\n\n","type":"text"},{"text":"[Poison I Potion]","bold":true,"color":"green","type":"text"},{"text":"\n\u2b25 Ranged item. Applies a weak poison effect to hit players.","type":"text"}]
+return 1

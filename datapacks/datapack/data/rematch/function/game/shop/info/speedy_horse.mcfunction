@@ -1,0 +1,2 @@
+tellraw @s ["",{"text":"\n\n\n","type":"text"},{"text":"[Speedy Horse]","bold":true,"color":"aqua","type":"text"},{"text":"\n\u2b25 Utility. Summons a horse with increased movement speed.","type":"text"}]
+return 1

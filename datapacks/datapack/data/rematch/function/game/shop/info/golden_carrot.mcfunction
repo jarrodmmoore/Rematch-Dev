@@ -1,0 +1,2 @@
+tellraw @s ["",{"text":"\n\n","type":"text"},{"text":"[Golden Carrot]","bold":true,"color":"gold","type":"text"},{"text":"\n\u2b25 Food. Restores 3 hunger while boosting saturation\nstrength.","type":"text"}]
+return 1

@@ -1,0 +1,2 @@
+tellraw @s ["",{"text":"\n\n","type":"text"},{"text":"[Explosive Arrows]","bold":true,"color":"dark_red","type":"text"},{"text":"\n\u2b25 Ranged ammunition. Explodes while making contact with a\nsurface.","type":"text"}]
+return 1

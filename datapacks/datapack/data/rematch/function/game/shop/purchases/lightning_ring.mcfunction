@@ -1,0 +1,13 @@
+execute if entity @s[nbt={SelectedItem:{id:"minecraft:diamond"}}] run tag @s add refund
+execute unless entity @s[tag=refund] unless entity @s[scores={currency=200..}] run tag @s add reject
+execute if entity @s[tag=refund] run function rematch:game/shop/refunds/lightning_ring
+execute if entity @s[tag=reject] run function rematch:game/shop/purchases/_reject
+
+execute if entity @s[tag=!reject,tag=!refund] run scoreboard players remove @s currency 200
+execute if entity @s[tag=!reject,tag=!refund] run give @s minecraft:diamond[minecraft:custom_name='{"bold":true,"color":"aqua","text":"Lightning Ring"}',minecraft:item_name='{"extra":["Lightning Ring"],"text":"EMU"}',minecraft:custom_data={Tags:["droptouse"],emu_lock_name:'{"bold":true,"color":"aqua","text":"Lightning Ring"}'}] 1
+execute if entity @s[tag=!reject,tag=!refund] run tellraw @s ["",{"text":"\u2714 Purchased","color":"dark_green","type":"text"},{"text":" [Lightning Ring]","bold":true,"color":"aqua","type":"text"}]
+execute if entity @s[tag=!reject,tag=!refund] at @s run playsound minecraft:entity.villager.yes master @s ~ ~ ~ 1 1
+
+execute if entity @s[tag=refund] run tag @s remove refund
+execute if entity @s[tag=reject] run tag @s remove reject
+return 1

@@ -1,0 +1,2 @@
+execute as @e[tag=Enchanted,tag=!playernoparticle] at @s run particle minecraft:enchant ~ ~0.3 ~ 0.3 0.3 0.3 1 1 normal @a
+return 1

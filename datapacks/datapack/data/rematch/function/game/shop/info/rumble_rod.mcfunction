@@ -1,0 +1,2 @@
+tellraw @s ["",{"text":"\n\n","type":"text"},{"text":"[Rumble Rod]","bold":true,"color":"white","type":"text"},{"text":"\n\u2b25 Proximity weapon. Plant the hook into the ground to\nlaunch nearby players into the air.","type":"text"}]
+return 1

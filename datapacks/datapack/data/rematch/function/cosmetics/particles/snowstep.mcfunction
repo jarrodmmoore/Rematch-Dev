@@ -1,0 +1,2 @@
+execute as @e[tag=Snowstep,tag=!playernoparticle] at @s run particle minecraft:item_snowball ~ ~ ~ 0 0 0 1 2 normal @a
+return 1

@@ -1,0 +1,2 @@
+tellraw @s ["",{"text":"\n\n\n","type":"text"},{"text":"[Leaping Horse]","bold":true,"color":"green","type":"text"},{"text":"\n\u2b25 Utility. Summons a horse with increased jumping strength.","type":"text"}]
+return 1

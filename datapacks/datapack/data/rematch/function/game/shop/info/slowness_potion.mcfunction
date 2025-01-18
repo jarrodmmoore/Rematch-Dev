@@ -1,0 +1,2 @@
+tellraw @s ["",{"text":"\n\n\n","type":"text"},{"text":"[Slowness I Potion]","bold":true,"color":"dark_gray","type":"text"},{"text":"\n\u2b25 Ranged item. Applies a weak slowness effect to hit players.","type":"text"}]
+return 1

@@ -1,0 +1,8 @@
+scoreboard players reset * playerID
+scoreboard players set @a playerID 0
+
+#every player is given a unique ID
+#note: playerID=0 is null, usually given to spectators
+scoreboard players set @e[name=Global] playerID 2
+execute as @a run function rematch:give_self_player_id
+return 1

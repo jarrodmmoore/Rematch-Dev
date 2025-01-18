@@ -1,0 +1,2 @@
+tellraw @s ["",{"text":"\n","type":"text"},{"text":"[Bottle O' Axolotl]","bold":true,"color":"light_purple","type":"text"},{"text":"\n\u2b25 Utility. When dropped on the ground, will create a\nturret that applies a random status effect to nearby\nplayers. Thanks a lot...tle.\n ","type":"text"}]
+return 1

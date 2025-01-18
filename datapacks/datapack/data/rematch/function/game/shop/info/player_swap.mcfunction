@@ -1,0 +1,2 @@
+tellraw @s ["",{"text":"\n\n\n","type":"text"},{"text":"[Player Swap]","bold":true,"color":"yellow","type":"text"},{"text":"\n\u2b25 Utility. Swaps the position of the user and a random\nplayer.","type":"text"}]
+return 1

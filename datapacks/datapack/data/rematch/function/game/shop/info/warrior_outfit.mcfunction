@@ -1,0 +1,2 @@
+tellraw @s ["",{"text":"\n\n\n","type":"text"},{"text":"[Warrior Outfit]","bold":true,"color":"yellow","type":"text"},{"text":"\n\u2b25 Enhanced leather armor. Gives user increased strength.","type":"text"}]
+return 1

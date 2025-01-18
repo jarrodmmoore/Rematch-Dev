@@ -1,0 +1,2 @@
+tellraw @s ["",{"text":"\n\n","type":"text"},{"text":"[Harm Trap]","bold":true,"color":"dark_red","type":"text"},{"text":"\n\u2b25 Utility. Drop to create an invisible trap that applies\ninstant damage.","type":"text"}]
+return 1

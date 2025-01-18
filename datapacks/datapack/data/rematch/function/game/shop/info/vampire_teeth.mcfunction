@@ -1,0 +1,2 @@
+tellraw @s ["",{"text":"\n\n","type":"text"},{"text":"[Vampire's Teeth]","bold":true,"color":"white","type":"text"},{"text":"\n\u2b25 Utility. Regenerates a small percentage of the user's\nhealth while dealing melee damage.","type":"text"}]
+return 1

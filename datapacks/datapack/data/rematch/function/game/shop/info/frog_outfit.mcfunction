@@ -1,0 +1,2 @@
+tellraw @s ["",{"text":"\n\n\n","type":"text"},{"text":"[Frog Outfit]","bold":true,"color":"green","type":"text"},{"text":"\n\u2b25 Enhanced leather armor. Gives user jump boost.","type":"text"}]
+return 1

@@ -1,0 +1,31 @@
+setblock -27 53 -16 minecraft:lantern
+setblock -25 54 -24 minecraft:lantern
+setblock -19 55 -31 minecraft:lantern
+setblock -10 56 -27 minecraft:lantern
+setblock -6 56 -36 minecraft:lantern
+setblock 5 59 -34 minecraft:lantern
+setblock -3 54 -17 minecraft:lantern
+setblock 6 54 -14 minecraft:lantern
+setblock 14 52 -15 minecraft:lantern
+setblock 28 52 -17 minecraft:lantern
+setblock 37 53 -16 minecraft:lantern
+setblock 22 54 -7 minecraft:lantern
+setblock 7 53 18 minecraft:lantern
+setblock 17 52 19 minecraft:lantern
+setblock 24 51 27 minecraft:lantern
+setblock -4 54 20 minecraft:lantern
+setblock -14 54 26 minecraft:lantern
+setblock -21 55 17 minecraft:lantern
+setblock -19 56 33 minecraft:lantern
+setblock -10 52 37 minecraft:lantern
+setblock -11 52 45 minecraft:lantern
+setblock 0 53 47 minecraft:lantern
+setblock -16 58 10 minecraft:lantern
+setblock -8 58 14 minecraft:lantern
+setblock -4 58 5 minecraft:lantern
+setblock 21 49 22 minecraft:campfire
+setblock -26 64 32 minecraft:campfire
+setblock 43 60 -12 minecraft:campfire
+time set day
+data merge block 35 83 0 {front_text:{messages:['{"text":"","clickEvent":{"action":"run_command","value":"/execute at @a run playsound minecraft:entity.lightning_bolt.thunder master @s ~ ~ ~ 1 0"},"type":"text"}','{"text":"Switch to","clickEvent":{"action":"run_command","value":"/function rematch:cosmetics/themes/dark_mode"},"italic":true,"type":"text"}','{"text":"Dark Mode","bold":true,"underlined":true,"type":"text"}','""']}}
+return 1

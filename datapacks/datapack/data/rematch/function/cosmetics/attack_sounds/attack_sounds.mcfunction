@@ -1,0 +1,16 @@
+execute as @a[tag=Bawk,scores={Hit=1..}] at @s run playsound minecraft:entity.chicken.hurt player @a ~ ~ ~ 2 1
+execute as @a[tag=Clank,scores={Hit=1..}] at @s run playsound minecraft:block.anvil.place player @a ~ ~ ~ 1 1
+execute as @a[tag=Ding,scores={Hit=5..}] at @s run playsound minecraft:entity.arrow.hit_player player @a ~ ~ ~ 1 1
+execute as @a[tag=Meow,scores={Hit=1..}] at @s run playsound minecraft:entity.cat.stray_ambient player @a ~ ~ ~ 2 1
+execute as @a[tag=Moo,scores={Hit=1..}] at @s run playsound minecraft:entity.cow.death player @a ~ ~ ~ 1 1
+execute as @a[tag=Tasty,scores={Hit=1..}] at @s run playsound minecraft:entity.player.burp player @a ~ ~ ~ 1 1
+execute as @a[tag=Squish,scores={Hit=1..}] at @s run playsound minecraft:entity.slime.squish player @a ~ ~ ~ 1 1
+execute as @a[tag=Splash,scores={Hit=1..}] at @s run playsound minecraft:entity.husk.converted_to_zombie player @a ~ ~ ~ 1 1
+execute as @a[tag=Boom,scores={Hit=1..}] at @s run playsound minecraft:entity.lightning_bolt.impact player @a ~ ~ ~ 1 1
+execute as @a[tag=Mhmm,scores={Hit=1..}] at @s run playsound minecraft:entity.villager.celebrate player @a ~ ~ ~ 1 1
+execute as @a[tag=Sci_Fi,scores={Hit=1..}] at @s run playsound minecraft:entity.mooshroom.convert player @a ~ ~ ~ 1 2
+execute as @a[tag=Sizzle,scores={Hit=1..}] at @s run playsound minecraft:block.fire.extinguish player @a ~ ~ ~ 1 1
+execute as @a[tag=Shatter,scores={Hit=1..}] at @s run playsound minecraft:block.glass.break player @a ~ ~ ~ 1 1
+execute as @a[tag=Retro,scores={Hit=1..}] at @s run playsound minecraft:block.note_block.bit player @a ~ ~ ~ 1 1
+execute as @a[tag=Ring,scores={Hit=1..}] at @s run playsound minecraft:block.bell.use player @a ~ ~ ~ 1 1
+return 1

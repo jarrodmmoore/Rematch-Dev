@@ -1,0 +1,2 @@
+tellraw @s ["",{"text":"\n\n","type":"text"},{"text":"[Slowness Trap]","bold":true,"color":"dark_blue","type":"text"},{"text":"\n\u2b25 Utility. Drop to create an invisible trap that applies\nslowness effect.","type":"text"}]
+return 1

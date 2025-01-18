@@ -1,0 +1,2 @@
+tellraw @s ["",{"text":"\n\n","type":"text"},{"text":"[Launch Pad]","bold":true,"color":"green","type":"text"},{"text":"\n\u2b25 Utility. Launches players in the air when walked over.\nAdditionally applies slow falling to the user when triggered.","type":"text"}]
+return 1

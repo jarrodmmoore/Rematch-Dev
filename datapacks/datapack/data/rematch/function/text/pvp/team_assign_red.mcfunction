@@ -1,0 +1,2 @@
+tellraw @a[tag=ichooseyou] ["",{"text":"You've been assigned to ","italic":true,"color":"white","type":"text"},{"text":"red team","italic":true,"color":"red","type":"text"},{"text":".","italic":true,"color":"white","type":"text"}]
+return 1

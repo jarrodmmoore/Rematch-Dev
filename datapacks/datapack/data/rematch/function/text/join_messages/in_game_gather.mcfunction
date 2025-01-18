@@ -1,0 +1,7 @@
+tellraw @s ["",{"text":" ","type":"text"}]
+tellraw @s ["",{"text":"Welcome to Rematch!","color":"yellow","bold":true,"type":"text"}]
+tellraw @s ["",{"text":"A game is currently in progress.","color":"white","type":"text"}]
+tellraw @s ["",{"text":"You'll have to spectate for a while!","color":"white","type":"text"}]
+tellraw @s ["",{"text":"Phase 1 of 3 -- Gather","color":"yellow","italic":true,"type":"text"}]
+tellraw @s ["",{"text":" ","type":"text"}]
+return 1

@@ -1,0 +1,2 @@
+tellraw @s ["",{"text":"\n\n\n","type":"text"},{"text":"[Slowness Arrows]","bold":true,"color":"dark_gray","type":"text"},{"text":"\n\u2b25 Ranged ammunition. Applies slowness effect.","type":"text"}]
+return 1

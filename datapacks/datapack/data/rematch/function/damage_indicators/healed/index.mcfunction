@@ -1,0 +1,21 @@
+execute if entity @s[scores={math=1}] run function rematch:damage_indicators/healed/1
+execute if entity @s[scores={math=2}] run function rematch:damage_indicators/healed/2
+execute if entity @s[scores={math=3}] run function rematch:damage_indicators/healed/3
+execute if entity @s[scores={math=4}] run function rematch:damage_indicators/healed/4
+execute if entity @s[scores={math=5}] run function rematch:damage_indicators/healed/5
+execute if entity @s[scores={math=6}] run function rematch:damage_indicators/healed/6
+execute if entity @s[scores={math=7}] run function rematch:damage_indicators/healed/7
+execute if entity @s[scores={math=8}] run function rematch:damage_indicators/healed/8
+execute if entity @s[scores={math=9}] run function rematch:damage_indicators/healed/9
+execute if entity @s[scores={math=10}] run function rematch:damage_indicators/healed/10
+execute if entity @s[scores={math=11}] run function rematch:damage_indicators/healed/11
+execute if entity @s[scores={math=12}] run function rematch:damage_indicators/healed/12
+execute if entity @s[scores={math=13}] run function rematch:damage_indicators/healed/13
+execute if entity @s[scores={math=14}] run function rematch:damage_indicators/healed/14
+execute if entity @s[scores={math=15}] run function rematch:damage_indicators/healed/15
+execute if entity @s[scores={math=16}] run function rematch:damage_indicators/healed/16
+execute if entity @s[scores={math=17}] run function rematch:damage_indicators/healed/17
+execute if entity @s[scores={math=18}] run function rematch:damage_indicators/healed/18
+execute if entity @s[scores={math=19}] run function rematch:damage_indicators/healed/19
+execute if entity @s[scores={math=20..}] run function rematch:damage_indicators/healed/20
+return 1

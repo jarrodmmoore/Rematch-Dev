@@ -1,0 +1,31 @@
+execute as @e[nbt={Inventory:[{id:"minecraft:player_head",components:{"minecraft:custom_name":'"Berry"',"minecraft:item_name":'{"extra":["Berry"],"text":"EMU"}',"minecraft:custom_data":{emu_lock_name:'"Berry"'}}}]}] run function rematch:game/gather/exchanges/berry
+execute as @e[nbt={Inventory:[{id:"minecraft:chest"}]}] run function rematch:game/gather/exchanges/chests
+execute as @e[scores={mine_beehive=1..}] run function rematch:game/gather/exchanges/beehive
+
+execute as @e[scores={kill_pigs=1..}] run function rematch:game/gather/exchanges/pig
+execute as @e[scores={kill_mooshroom=1..}] run function rematch:game/gather/exchanges/mooshroom
+execute as @e[scores={kill_trade_llama=1..}] run function rematch:game/gather/exchanges/trader_llama
+execute as @e[scores={kill_cat=1..}] run function rematch:game/gather/exchanges/cat
+execute as @e[scores={kill_donkey=1..}] run function rematch:game/gather/exchanges/donkey
+execute as @e[scores={kill_ocelot=1..}] run function rematch:game/gather/exchanges/ocelot
+execute as @e[scores={kill_llama=1..}] run function rematch:game/gather/exchanges/llama
+execute as @e[scores={kill_horse=1..}] run function rematch:game/gather/exchanges/horse
+execute as @e[scores={kill_cow=1..}] run function rematch:game/gather/exchanges/cow
+execute as @e[scores={kill_skel_horse=1..}] run function rematch:game/gather/exchanges/skeleton_horse
+execute as @e[scores={kill_zomb_horse=1..}] run function rematch:game/gather/exchanges/zombie_horse
+execute as @e[scores={kill_drowned=1..}] run function rematch:game/gather/exchanges/drowned
+execute as @e[scores={kill_stray=1..}] run function rematch:game/gather/exchanges/stray
+execute as @e[scores={kill_zvillager=1..}] run function rematch:game/gather/exchanges/zombie_villager
+execute as @e[scores={kill_wskeleton=1..}] run function rematch:game/gather/exchanges/wither_skeleton
+execute as @e[scores={kill_husk=1..}] run function rematch:game/gather/exchanges/husk
+execute as @e[scores={kill_zomb_pigman=1..}] run function rematch:game/gather/exchanges/zombie_pigman
+execute as @e[scores={kill_zpiglin=1..}] run function rematch:game/gather/exchanges/zombie_pigman
+execute as @e[scores={kill_zombie=1..}] run function rematch:game/gather/exchanges/zombie
+execute as @e[scores={kill_skeleton=1..}] run function rematch:game/gather/exchanges/skeleton
+execute as @e[scores={kill_wolves=1..}] run function rematch:game/gather/exchanges/wolves
+execute as @e[scores={kill_bee=1..}] run function rematch:game/gather/exchanges/bee
+execute as @e[scores={kill_rabbits=1..}] run function rematch:game/gather/exchanges/rabbit
+execute as @e[scores={kill_sheep=1..}] run function rematch:game/gather/exchanges/sheep
+execute as @e[scores={kill_chicken=1..}] run function rematch:game/gather/exchanges/chicken
+
+return 1

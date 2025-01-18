@@ -1,0 +1,2 @@
+tellraw @s ["",{"text":"\n\n\n","type":"text"},{"text":"[Harming Arrows]","bold":true,"color":"dark_red","type":"text"},{"text":"\n\u2b25 Ranged ammunition. Applies instant damage effect.","type":"text"}]
+return 1

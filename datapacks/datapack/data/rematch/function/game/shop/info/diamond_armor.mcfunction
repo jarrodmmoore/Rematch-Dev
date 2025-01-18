@@ -1,0 +1,2 @@
+tellraw @s ["",{"text":"\n\n\n","type":"text"},{"text":"[Diamond Outfit]","bold":true,"color":"aqua","type":"text"},{"text":"\n\u2b25 Reinforced armor set. No extra effects.","type":"text"}]
+return 1

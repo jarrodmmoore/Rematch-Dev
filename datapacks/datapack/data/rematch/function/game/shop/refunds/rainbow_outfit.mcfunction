@@ -1,0 +1,8 @@
+scoreboard players add @s currency 1000
+clear @s minecraft:leather_chestplate[minecraft:custom_name='{"bold":true,"color":"white","text":"Rainbow Shirt"}',minecraft:item_name='{"extra":["Rainbow Shirt"],"text":"EMU"}',minecraft:dyed_color={rgb:16760788},minecraft:unbreakable={},minecraft:custom_data~{Tags:["rainbowoutfit"],emu_lock_name:'{"bold":true,"color":"white","text":"Rainbow Shirt"}'}] 1
+clear @s minecraft:leather_leggings[minecraft:custom_name='{"bold":true,"color":"white","text":"Rainbow Pants"}',minecraft:item_name='{"extra":["Rainbow Pants"],"text":"EMU"}',minecraft:dyed_color={rgb:16760788},minecraft:unbreakable={},minecraft:custom_data~{Tags:["rainbowoutfit"],emu_lock_name:'{"bold":true,"color":"white","text":"Rainbow Pants"}'}] 1
+clear @s minecraft:leather_boots[minecraft:custom_name='{"bold":true,"color":"white","text":"Rainbow Shoes"}',minecraft:item_name='{"extra":["Rainbow Shoes"],"text":"EMU"}',minecraft:dyed_color={rgb:16760788},minecraft:unbreakable={},minecraft:custom_data~{Tags:["rainbowoutfit"],emu_lock_name:'{"bold":true,"color":"white","text":"Rainbow Shoes"}'}] 1
+tellraw @s ["",{"text":"\u2714 Refunded","color":"dark_red","type":"text"},{"text":" [Ra","bold":true,"color":"red","type":"text"},{"text":"inb","bold":true,"color":"gold","type":"text"},{"text":"ow","bold":true,"color":"yellow","type":"text"},{"text":" Ou","bold":true,"color":"green","type":"text"},{"text":"tf","bold":true,"color":"aqua","type":"text"},{"text":"it]","bold":true,"color":"light_purple","type":"text"}]
+execute at @s run playsound minecraft:entity.villager.trade master @s ~ ~ ~ 1 1
+
+return 1

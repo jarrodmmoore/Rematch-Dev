@@ -1,0 +1,3 @@
+effect give @a[nbt={Inventory:[{components:{"minecraft:custom_data":{Tags:["frogoutfit"]}},Slot:100b},{components:{"minecraft:custom_data":{Tags:["frogoutfit"]}},Slot:101b},{components:{"minecraft:custom_data":{Tags:["frogoutfit"]}},Slot:102b}]}] minecraft:jump_boost 1 1 true
+execute as @a[nbt={Inventory:[{components:{"minecraft:custom_data":{Tags:["frogoutfit"]}},Slot:100b},{components:{"minecraft:custom_data":{Tags:["frogoutfit"]}},Slot:101b},{components:{"minecraft:custom_data":{Tags:["frogoutfit"]}},Slot:102b}]}] if entity @s[type=minecraft:player,predicate=effect:jump_boost] run function effect:jump_boost/check
+return 1

@@ -1,0 +1,2 @@
+tellraw @s ["",{"text":"\n\n\n","type":"text"},{"text":"[Leather Outfit]","bold":true,"color":"red","type":"text"},{"text":"\n\u2b25 Basic armor set. No extra effects.","type":"text"}]
+return 1

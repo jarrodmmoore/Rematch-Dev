@@ -1,0 +1,5 @@
+#0.25 chance
+scoreboard players operation @e[name=Global] math = @e[tag=arenaStand,scores={arenaID=1..4},sort=random,limit=1] arenaID
+
+execute if entity @e[scores={math=1},name=Global] run summon minecraft:armor_stand ~ ~ ~ {Invisible:1b,Invulnerable:1b,NoGravity:1b,ArmorItems:[{},{},{},{id:"minecraft:player_head",components:{"minecraft:custom_name":'"Berry"',"minecraft:item_name":'{"extra":["Berry"],"text":"EMU"}',"minecraft:profile":{id:[I;1944841111,678184863,-1845527785,-1918470680],properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjc2OWY4Yjc4YzQyZTI3MmE2NjlkNmU2ZDE5YmE4NjUxYjcxMGFiNzZmNmI0NmQ5MDlkNmEzZDQ4Mjc1NCJ9fX0="}]},"minecraft:custom_data":{emu_lock_name:'"Berry"'}},count:1}],HandItems:[{},{}],CustomName:'{"bold":true,"color":"white","text":"CLICK!"}',CustomNameVisible:0b,DisabledSlots:986895,Tags:["blackberry","checkProximity"]}
+return 1

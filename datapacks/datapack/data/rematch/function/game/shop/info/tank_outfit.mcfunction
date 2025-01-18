@@ -1,0 +1,2 @@
+tellraw @s ["",{"text":"\n\n","type":"text"},{"text":"[Tank Outfit]","bold":true,"color":"dark_aqua","type":"text"},{"text":"\n\u2b25 Enhanced leather armor. Gives user resistance while also\napplying slowness effect.","type":"text"}]
+return 1

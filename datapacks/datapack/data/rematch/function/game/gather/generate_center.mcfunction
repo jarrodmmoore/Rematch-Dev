@@ -1,0 +1,36 @@
+#chests
+execute positioned 1226 72 1194 unless entity @e[distance=..4,tag=chest] run function rematch:game/gather/random/random_chest
+execute positioned 1231 69 1168 unless entity @e[distance=..4,tag=chest] run function rematch:game/gather/random/random_chest
+execute positioned 1242 71 1185 unless entity @e[distance=..4,tag=chest] run function rematch:game/gather/random/random_chest
+execute positioned 1222 77 1211 unless entity @e[distance=..4,tag=chest] run function rematch:game/gather/random/random_chest
+execute positioned 1212 84 1222 unless entity @e[distance=..4,tag=chest] run function rematch:game/gather/random/random_chest
+execute positioned 1264 71 1188 unless entity @e[distance=..4,tag=chest] run function rematch:game/gather/random/random_chest
+execute positioned 1281 70 1179 unless entity @e[distance=..4,tag=chest] run function rematch:game/gather/random/random_chest
+execute positioned 1287 73 1205 unless entity @e[distance=..4,tag=chest] run function rematch:game/gather/random/random_chest
+execute positioned 1296 71 1229 unless entity @e[distance=..4,tag=chest] run function rematch:game/gather/random/random_chest
+execute positioned 1312 69 1210 unless entity @e[distance=..4,tag=chest] run function rematch:game/gather/random/random_chest
+execute positioned 1315 78 1189 unless entity @e[distance=..4,tag=chest] run function rematch:game/gather/random/random_chest
+execute positioned 1267 74 1209 unless entity @e[distance=..4,tag=chest] run function rematch:game/gather/random/random_chest
+execute positioned 1312 78 1181 unless entity @e[distance=..4,tag=chest] run function rematch:game/gather/random/random_chest
+execute positioned 1249 74 1218 unless entity @e[distance=..4,tag=chest] run function rematch:game/gather/random/random_chest
+execute positioned 1242 74 1214 unless entity @e[distance=..4,tag=chest] run function rematch:game/gather/random/random_chest
+execute positioned 1239 73 1234 unless entity @e[distance=..4,tag=chest] run function rematch:game/gather/random/random_chest
+execute positioned 1222 77 1241 unless entity @e[distance=..4,tag=chest] run function rematch:game/gather/random/random_chest
+execute positioned 1201 69 1209 unless entity @e[distance=..4,tag=chest] run function rematch:game/gather/random/random_chest
+execute positioned 1190 69 1187 unless entity @e[distance=..4,tag=chest] run function rematch:game/gather/random/random_chest
+execute positioned 1296 69 1164 unless entity @e[distance=..4,tag=chest] run function rematch:game/gather/random/random_chest
+execute positioned 1288 69 1156 unless entity @e[distance=..4,tag=chest] run function rematch:game/gather/random/random_chest
+execute positioned 1332 81 1243 unless entity @e[distance=..4,tag=chest] run function rematch:game/gather/random/random_chest
+execute positioned 1320 72 1256 unless entity @e[distance=..4,tag=chest] run function rematch:game/gather/random/random_chest
+execute positioned 1292 71 1264 unless entity @e[distance=..4,tag=chest] run function rematch:game/gather/random/random_chest
+execute positioned 1274 76 1271 unless entity @e[distance=..4,tag=chest] run function rematch:game/gather/random/random_chest
+execute positioned 1285 72 1250 unless entity @e[distance=..4,tag=chest] run function rematch:game/gather/random/random_chest
+execute positioned 1264 73 1238 unless entity @e[distance=..4,tag=chest] run function rematch:game/gather/random/random_chest
+execute positioned 1259 73 1248 unless entity @e[distance=..4,tag=chest] run function rematch:game/gather/random/random_chest
+execute positioned 1252 72 1265 unless entity @e[distance=..4,tag=chest] run function rematch:game/gather/random/random_chest
+execute positioned 1241 73 1255 unless entity @e[distance=..4,tag=chest] run function rematch:game/gather/random/random_chest
+execute positioned 1200 69 1260 unless entity @e[distance=..4,tag=chest] run function rematch:game/gather/random/random_chest
+execute positioned 1220 71 1265 unless entity @e[distance=..4,tag=chest] run function rematch:game/gather/random/random_chest
+execute positioned 1247 69 1286 unless entity @e[distance=..4,tag=chest] run function rematch:game/gather/random/random_chest
+execute positioned 1273 80 1299 unless entity @e[distance=..4,tag=chest] run function rematch:game/gather/random/random_chest
+return 1

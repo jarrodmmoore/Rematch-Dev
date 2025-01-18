@@ -1,0 +1,6 @@
+bossbar set minecraft:readyprogress color green
+bossbar set minecraft:readyprogress style progress
+execute if entity @e[scores={oTimer=..100},name=Global] run bossbar set minecraft:readyprogress name ["",{"text":"Done shopping? Ready up for Phase 3!","color":"green","bold":true,"type":"text"}]
+execute if entity @e[scores={oTimer=101..},name=Global] if entity @e[scores={readyRequired=..1},name=Global] run bossbar set minecraft:readyprogress name ["",{"score":{"name":"@e[limit=1,name=Global]","objective":"readyRequired"},"color":"green","bold":true,"type":"score"},{"text":" player must ready up to start the next phase!","color":"green","bold":true,"type":"text"}]
+execute if entity @e[scores={oTimer=101..},name=Global] unless entity @e[scores={readyRequired=..1},name=Global] run bossbar set minecraft:readyprogress name ["",{"score":{"name":"@e[limit=1,name=Global]","objective":"readyRequired"},"color":"green","bold":true,"type":"score"},{"text":" players must ready up to start the next phase!","color":"green","bold":true,"type":"text"}]
+return 1

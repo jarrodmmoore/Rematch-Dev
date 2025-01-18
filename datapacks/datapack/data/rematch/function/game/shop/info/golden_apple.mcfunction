@@ -1,0 +1,2 @@
+tellraw @s ["",{"text":"\n\n","type":"text"},{"text":"[Golden Apple]","bold":true,"color":"gold","type":"text"},{"text":"\n\u2b25 Food. Restores 2 hunger while applying absorption and\nregeneration.","type":"text"}]
+return 1

@@ -1,0 +1,8 @@
+scoreboard players add @s currency 800
+clear @s minecraft:leather_chestplate[minecraft:custom_name='{"bold":true,"color":"yellow","text":"Warrior Battleplate"}',minecraft:item_name='{"extra":["Warrior Battleplate"],"text":"EMU"}',minecraft:dyed_color={rgb:16777021},minecraft:unbreakable={},minecraft:custom_data~{Tags:["warrioroutfit"],emu_lock_name:'{"bold":true,"color":"yellow","text":"Warrior Battleplate"}'}] 1
+clear @s minecraft:leather_leggings[minecraft:custom_name='{"bold":true,"color":"yellow","text":"Warrior Wrappings"}',minecraft:item_name='{"extra":["Warrior Wrappings"],"text":"EMU"}',minecraft:dyed_color={rgb:16777021},minecraft:unbreakable={},minecraft:custom_data~{Tags:["warrioroutfit"],emu_lock_name:'{"bold":true,"color":"yellow","text":"Warrior Wrappings"}'}] 1
+clear @s minecraft:leather_boots[minecraft:custom_name='{"bold":true,"color":"yellow","text":"Warrior Sandals"}',minecraft:item_name='{"extra":["Warrior Sandals"],"text":"EMU"}',minecraft:dyed_color={rgb:16777021},minecraft:unbreakable={},minecraft:custom_data~{Tags:["warrioroutfit"],emu_lock_name:'{"bold":true,"color":"yellow","text":"Warrior Sandals"}'}] 1
+tellraw @s ["",{"text":"\u2714 Refunded","color":"dark_red","type":"text"},{"text":" [Warrior Outfit]","bold":true,"color":"yellow","type":"text"}]
+execute at @s run playsound minecraft:entity.villager.trade master @s ~ ~ ~ 1 1
+
+return 1

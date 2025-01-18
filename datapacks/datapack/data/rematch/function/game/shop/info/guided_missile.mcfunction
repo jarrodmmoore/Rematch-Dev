@@ -1,0 +1,2 @@
+tellraw @s ["",{"text":"\n\n\n","type":"text"},{"text":"[Homing Missile]","bold":true,"color":"dark_gray","type":"text"},{"text":"\n\u2b25 Ranged weapon. Follows and explodes on the nearest\ntarget from the user.","type":"text"}]
+return 1

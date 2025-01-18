@@ -1,0 +1,2 @@
+tellraw @s ["",{"text":"\n\n\n","type":"text"},{"text":"[Spectral Arrows]","bold":true,"color":"yellow","type":"text"},{"text":"\n\u2b25 Ranged ammunition. Applies glowing effect.","type":"text"}]
+return 1

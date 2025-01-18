@@ -1,0 +1,2 @@
+tellraw @s ["",{"text":"\n\n\n","type":"text"},{"text":"[Pocket TNT]","bold":true,"color":"dark_red","type":"text"},{"text":"\n\u2b25 Utility. Invisible trap that explodes when walked over.","type":"text"}]
+return 1

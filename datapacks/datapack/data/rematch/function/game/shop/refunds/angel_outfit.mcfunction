@@ -1,0 +1,8 @@
+scoreboard players add @s currency 400
+clear @s minecraft:leather_chestplate[minecraft:custom_name='{"bold":true,"color":"white","text":"Angel Breastplate"}',minecraft:item_name='{"extra":["Angel Breastplate"],"text":"EMU"}',minecraft:dyed_color={rgb:16777215},minecraft:unbreakable={},minecraft:custom_data~{Tags:["angeloutfit"],emu_lock_name:'{"bold":true,"color":"white","text":"Angel Breastplate"}'}] 1
+clear @s minecraft:leather_leggings[minecraft:custom_name='{"bold":true,"color":"white","text":"Angel Stockings"}',minecraft:item_name='{"extra":["Angel Stockings"],"text":"EMU"}',minecraft:dyed_color={rgb:16777215},minecraft:unbreakable={},minecraft:custom_data~{Tags:["angeloutfit"],emu_lock_name:'{"bold":true,"color":"white","text":"Angel Stockings"}'}] 1
+clear @s minecraft:leather_boots[minecraft:custom_name='{"bold":true,"color":"white","text":"Angel Boots"}',minecraft:item_name='{"extra":["Angel Boots"],"text":"EMU"}',minecraft:dyed_color={rgb:16777215},minecraft:unbreakable={},minecraft:custom_data~{Tags:["angeloutfit"],emu_lock_name:'{"bold":true,"color":"white","text":"Angel Boots"}'}] 1
+tellraw @s ["",{"text":"\u2714 Refunded","color":"dark_red","type":"text"},{"text":" [Angel Outfit]","bold":true,"color":"white","type":"text"}]
+execute at @s run playsound minecraft:entity.villager.trade master @s ~ ~ ~ 1 1
+
+return 1

@@ -1,0 +1,2 @@
+tellraw @s ["",{"text":"\n\n\n","type":"text"},{"text":"[Radio Tracker]","bold":true,"color":"dark_gray","type":"text"},{"text":"\n\u2b25 Proximity item. Drop to apply glowing to nearby players.","type":"text"}]
+return 1

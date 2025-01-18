@@ -1,0 +1,2 @@
+tellraw @s ["",{"text":"\n\n\n","type":"text"},{"text":"[Steak]","bold":true,"color":"red","type":"text"},{"text":"\n\u2b25 Food. Restores 4 hunger.","type":"text"}]
+return 1

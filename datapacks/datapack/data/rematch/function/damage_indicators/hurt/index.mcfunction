@@ -1,0 +1,21 @@
+execute if entity @s[scores={math=-1}] run function rematch:damage_indicators/hurt/1
+execute if entity @s[scores={math=-2}] run function rematch:damage_indicators/hurt/2
+execute if entity @s[scores={math=-3}] run function rematch:damage_indicators/hurt/3
+execute if entity @s[scores={math=-4}] run function rematch:damage_indicators/hurt/4
+execute if entity @s[scores={math=-5}] run function rematch:damage_indicators/hurt/5
+execute if entity @s[scores={math=-6}] run function rematch:damage_indicators/hurt/6
+execute if entity @s[scores={math=-7}] run function rematch:damage_indicators/hurt/7
+execute if entity @s[scores={math=-8}] run function rematch:damage_indicators/hurt/8
+execute if entity @s[scores={math=-9}] run function rematch:damage_indicators/hurt/9
+execute if entity @s[scores={math=-10}] run function rematch:damage_indicators/hurt/10
+execute if entity @s[scores={math=-11}] run function rematch:damage_indicators/hurt/11
+execute if entity @s[scores={math=-12}] run function rematch:damage_indicators/hurt/12
+execute if entity @s[scores={math=-13}] run function rematch:damage_indicators/hurt/13
+execute if entity @s[scores={math=-14}] run function rematch:damage_indicators/hurt/14
+execute if entity @s[scores={math=-15}] run function rematch:damage_indicators/hurt/15
+execute if entity @s[scores={math=-16}] run function rematch:damage_indicators/hurt/16
+execute if entity @s[scores={math=-17}] run function rematch:damage_indicators/hurt/17
+execute if entity @s[scores={math=-18}] run function rematch:damage_indicators/hurt/18
+execute if entity @s[scores={math=-19}] run function rematch:damage_indicators/hurt/19
+execute if entity @s[scores={math=..-20}] run function rematch:damage_indicators/hurt/20
+return 1

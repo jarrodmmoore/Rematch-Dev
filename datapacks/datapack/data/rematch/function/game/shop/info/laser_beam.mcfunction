@@ -1,0 +1,2 @@
+tellraw @s ["",{"text":"\n\n\n","type":"text"},{"text":"[Laser Beam]","bold":true,"color":"dark_red","type":"text"},{"text":"\n\u2b25 Ranged item. Fires a laser in a straight line.","type":"text"}]
+return 1

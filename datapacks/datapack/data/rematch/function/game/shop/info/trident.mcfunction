@@ -1,0 +1,2 @@
+tellraw @s ["",{"text":"\n\n\n","type":"text"},{"text":"[Trident]","bold":true,"color":"dark_aqua","type":"text"},{"text":"\n\u2b25 Ranged weapon with boomerang behavior.","type":"text"}]
+return 1

@@ -1,0 +1,2 @@
+execute as @e[distance=..3,tag=phase3trap,tag=longrange] at @s run function rematch:game/pvp/items/traps/long_range_detect
+return 1

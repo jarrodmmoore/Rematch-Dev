@@ -1,0 +1,16 @@
+tag @s remove ke_tnt_blast
+tag @s remove ke_rainbow_ball
+tag @s remove ke_globe
+tag @s remove ke_shadow_ball
+tag @s remove ke_pretty_ball
+tag @s remove ke_yellow_star
+tag @s remove ke_red_star
+tag @s remove ke_blue_star
+tag @s remove ke_creeper
+tag @s remove ke_happy_creeper
+tag @s remove ke_angry_creeper
+tag @s remove ke_sunset
+tag @s remove ke_frost
+tag @s remove ke_nature
+tag @s remove ke_silver
+return 1

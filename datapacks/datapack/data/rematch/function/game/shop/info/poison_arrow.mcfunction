@@ -1,0 +1,2 @@
+tellraw @s ["",{"text":"\n\n\n","type":"text"},{"text":"[Poison Arrows]","bold":true,"color":"green","type":"text"},{"text":"\n\u2b25 Ranged ammunition. Applies poison effect.","type":"text"}]
+return 1
