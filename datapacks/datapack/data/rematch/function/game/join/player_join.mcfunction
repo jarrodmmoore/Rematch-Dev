@@ -51,14 +51,14 @@ scoreboard players set @s playerSpawn 1
 #...
 
 tag @s add self
-execute if entity @e[scores={gameState=0},name=Global] run function rematch:game/join/join_logic/start
-execute if entity @a[tag=!self] if entity @e[scores={gameState=1},name=Global] run function rematch:game/join/join_logic/gather
-execute if entity @a[tag=!self] if entity @e[scores={gameState=2},name=Global] run function rematch:game/join/join_logic/shop
-execute if entity @a[tag=!self] if entity @e[scores={gameState=3},name=Global] run function rematch:game/join/join_logic/pvp
-execute unless entity @a[tag=!self] if entity @e[scores={gameState=1..},name=Global] run function rematch:game/join/join_logic/force_start
+execute if entity @e[scores={gameState=0},name=Global,type=armor_stand,x=0,y=50,z=49,dx=1,dy=1,dz=1] run function rematch:game/join/join_logic/start
+execute if entity @a[tag=!self] if entity @e[scores={gameState=1},name=Global,type=armor_stand,x=0,y=50,z=49,dx=1,dy=1,dz=1] run function rematch:game/join/join_logic/gather
+execute if entity @a[tag=!self] if entity @e[scores={gameState=2},name=Global,type=armor_stand,x=0,y=50,z=49,dx=1,dy=1,dz=1] run function rematch:game/join/join_logic/shop
+execute if entity @a[tag=!self] if entity @e[scores={gameState=3},name=Global,type=armor_stand,x=0,y=50,z=49,dx=1,dy=1,dz=1] run function rematch:game/join/join_logic/pvp
+execute unless entity @a[tag=!self] if entity @e[scores={gameState=1..},name=Global,type=armor_stand,x=0,y=50,z=49,dx=1,dy=1,dz=1] run function rematch:game/join/join_logic/force_start
 tag @s remove self
 
 tag @s remove readyup
 #if the lobby is already in "ready" mode, newly joined players are declared ready by default
-execute if entity @e[scores={readyState=1..},name=Global] run tag @s add readyup
+execute if entity @e[scores={readyState=1..},name=Global,type=armor_stand,x=0,y=50,z=49,dx=1,dy=1,dz=1] run tag @s add readyup
 return 1

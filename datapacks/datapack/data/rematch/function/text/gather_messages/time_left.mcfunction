@@ -1,5 +1,5 @@
-scoreboard players operation @e[name=Global] isStart = @e[name=Global] maxTime
-scoreboard players operation @e[name=Global] isStart -= @e[name=Global] globalTimer
+scoreboard players operation @e[name=Global,type=armor_stand,x=0,y=50,z=49,dx=1,dy=1,dz=1] isStart = @e[name=Global,type=armor_stand,x=0,y=50,z=49,dx=1,dy=1,dz=1] maxTime
+scoreboard players operation @e[name=Global,type=armor_stand,x=0,y=50,z=49,dx=1,dy=1,dz=1] isStart -= @e[name=Global,type=armor_stand,x=0,y=50,z=49,dx=1,dy=1,dz=1] globalTimer
 
 execute if entity @e[tag=secondsCount,scores={isStart=1..,globalTimer=1800,timer=1,isGreen=1..}] run tellraw @a {"text":"[Time remaining] : 30 minutes","color":"green","type":"text"}
 execute if entity @e[tag=secondsCount,scores={isStart=1..,globalTimer=1800,timer=1,isGreen=..0,isYellow=1..}] run tellraw @a {"text":"[Time remaining] : 30 minutes","color":"gold","type":"text"}

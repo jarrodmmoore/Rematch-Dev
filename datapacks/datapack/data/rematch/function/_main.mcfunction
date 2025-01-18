@@ -4,20 +4,20 @@ function rematch:game/join/_tick
 function rematch:cosmetics/tick
 
 #disable all PVP when Global has "noPunch" tag
-execute if entity @e[tag=noPunch,name=Global] run effect give @a[gamemode=!creative] minecraft:weakness 3 105 true
+execute if entity @e[tag=noPunch,name=Global,type=armor_stand,x=0,y=50,z=49,dx=1,dy=1,dz=1] run effect give @a[gamemode=!creative] minecraft:weakness 3 105 true
 
 #call the major tick functions depending on gameState
-execute if entity @e[scores={gameState=0},name=Global] run function rematch:game/start/_tick
-execute if entity @e[scores={gameState=1},name=Global] run function rematch:game/gather/_tick
-execute if entity @e[scores={gameState=2},name=Global] run function rematch:game/shop/_tick
-execute if entity @e[scores={gameState=3},name=Global] run function rematch:game/pvp/_tick
-execute if entity @e[scores={gameState=4},name=Global] run function rematch:game/end/_tick
+execute if entity @e[scores={gameState=0},name=Global,type=armor_stand,x=0,y=50,z=49,dx=1,dy=1,dz=1] run function rematch:game/start/_tick
+execute if entity @e[scores={gameState=1},name=Global,type=armor_stand,x=0,y=50,z=49,dx=1,dy=1,dz=1] run function rematch:game/gather/_tick
+execute if entity @e[scores={gameState=2},name=Global,type=armor_stand,x=0,y=50,z=49,dx=1,dy=1,dz=1] run function rematch:game/shop/_tick
+execute if entity @e[scores={gameState=3},name=Global,type=armor_stand,x=0,y=50,z=49,dx=1,dy=1,dz=1] run function rematch:game/pvp/_tick
+execute if entity @e[scores={gameState=4},name=Global,type=armor_stand,x=0,y=50,z=49,dx=1,dy=1,dz=1] run function rematch:game/end/_tick
 
 #run spectator logic (unless we're in the lobby)
-execute if entity @e[scores={gameState=1..},name=Global] run function rematch:game/spectator_logic
+execute if entity @e[scores={gameState=1..},name=Global,type=armor_stand,x=0,y=50,z=49,dx=1,dy=1,dz=1] run function rematch:game/spectator_logic
 
 #natural saturation
-execute unless entity @e[scores={gameState=3},name=Global] run effect give @a minecraft:saturation 100000 10 true
+execute unless entity @e[scores={gameState=3},name=Global,type=armor_stand,x=0,y=50,z=49,dx=1,dy=1,dz=1] run effect give @a minecraft:saturation 100000 10 true
 
 #damage indicators
 execute as @a[gamemode=adventure,scores={hp=1..}] run function rematch:damage_indicators/main

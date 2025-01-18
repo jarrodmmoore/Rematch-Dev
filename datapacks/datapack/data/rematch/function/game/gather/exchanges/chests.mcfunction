@@ -23,8 +23,8 @@ execute if entity @s[tag=chest_32] run scoreboard players add @e[tag=currencysta
 execute if entity @s[tag=chest_48] run scoreboard players add @e[tag=currencystand,scores={math=0}] math2 48
 execute if entity @s[tag=chest_64] run scoreboard players add @e[tag=currencystand,scores={math=0}] math2 64
 
-execute if entity @e[scores={eventScore=4},name=Global] run scoreboard players operation @e[tag=currencystand,scores={math=0}] math2 *= @e[limit=1,name=Global] x2
-scoreboard players operation @e[tag=currencystand,scores={math=0}] math2 *= @e[limit=1,name=Global] customMultiplier
+execute if entity @e[scores={eventScore=4},name=Global,type=armor_stand,x=0,y=50,z=49,dx=1,dy=1,dz=1] run scoreboard players operation @e[tag=currencystand,scores={math=0}] math2 *= @e[limit=1,name=Global,type=armor_stand,x=0,y=50,z=49,dx=1,dy=1,dz=1] x2
+scoreboard players operation @e[tag=currencystand,scores={math=0}] math2 *= @e[limit=1,name=Global,type=armor_stand,x=0,y=50,z=49,dx=1,dy=1,dz=1] customMultiplier
 execute as @e[tag=currencystand,scores={math=0}] run function rematch:game/gather/currencystand_color
 scoreboard players operation @s currency += @e[tag=currencystand,scores={math=0}] math2
 function rematch:game/gather/currency_playsound

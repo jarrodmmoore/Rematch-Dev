@@ -1,3 +1,3 @@
-execute if entity @e[scores={oTimer=..10},name=Global] run title @s actionbar ["",{"text":"Your offhand slot is needed for input detection!","color":"red","bold":true,"type":"text"}]
-execute if entity @e[scores={oTimer=11..},name=Global] run title @s actionbar ["",{"text":"Your offhand slot is needed for input detection!","color":"dark_red","bold":true,"type":"text"}]
+execute if entity @e[scores={oTimer=..10},name=Global,type=armor_stand,x=0,y=50,z=49,dx=1,dy=1,dz=1] run title @s actionbar ["",{"text":"Your offhand slot is needed for input detection!","color":"red","bold":true,"type":"text"}]
+execute if entity @e[scores={oTimer=11..},name=Global,type=armor_stand,x=0,y=50,z=49,dx=1,dy=1,dz=1] run title @s actionbar ["",{"text":"Your offhand slot is needed for input detection!","color":"dark_red","bold":true,"type":"text"}]
 return 1

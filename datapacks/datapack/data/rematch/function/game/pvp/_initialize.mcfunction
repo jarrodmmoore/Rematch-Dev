@@ -7,30 +7,30 @@ function rematch:give_all_player_id
 #execute as @e[tag=phase2_text] run item replace entity @s armor.head with air
 
 #Global / gamestate
-scoreboard players set @e[name=Global] gameState 3
-scoreboard players set @e[name=Global] countdown 0
-scoreboard players set @e[name=Global] countdown2 0
-tag @e[name=Global] remove bossbarGather
-scoreboard players reset @e[name=Global] globalTimer
-#scoreboard players set @e[name=Global] gameTime -40
-tag @e[name=Global] remove teamplay
-tag @e[name=Global] remove darkHUD
+scoreboard players set @e[name=Global,type=armor_stand,x=0,y=50,z=49,dx=1,dy=1,dz=1] gameState 3
+scoreboard players set @e[name=Global,type=armor_stand,x=0,y=50,z=49,dx=1,dy=1,dz=1] countdown 0
+scoreboard players set @e[name=Global,type=armor_stand,x=0,y=50,z=49,dx=1,dy=1,dz=1] countdown2 0
+tag @e[name=Global,type=armor_stand,x=0,y=50,z=49,dx=1,dy=1,dz=1] remove bossbarGather
+scoreboard players reset @e[name=Global,type=armor_stand,x=0,y=50,z=49,dx=1,dy=1,dz=1] globalTimer
+#scoreboard players set @e[name=Global,type=armor_stand,x=0,y=50,z=49,dx=1,dy=1,dz=1] gameTime -40
+tag @e[name=Global,type=armor_stand,x=0,y=50,z=49,dx=1,dy=1,dz=1] remove teamplay
+tag @e[name=Global,type=armor_stand,x=0,y=50,z=49,dx=1,dy=1,dz=1] remove darkHUD
 scoreboard objectives remove death
 scoreboard objectives add death minecraft.custom:minecraft.deaths
 function rematch:text/pvp/scoreboard_display_names
-scoreboard players set @e[name=Global] loadingTimeout 0
+scoreboard players set @e[name=Global,type=armor_stand,x=0,y=50,z=49,dx=1,dy=1,dz=1] loadingTimeout 0
 
-tag @e[name=Global] add noparticles
-tag @e[name=Global] add noPunch
+tag @e[name=Global,type=armor_stand,x=0,y=50,z=49,dx=1,dy=1,dz=1] add noparticles
+tag @e[name=Global,type=armor_stand,x=0,y=50,z=49,dx=1,dy=1,dz=1] add noPunch
 gamerule showDeathMessages false
 
 #set time
-scoreboard players operation @e[name=Global] timeRemaining = @e[name=Global] optionTimePVP
+scoreboard players operation @e[name=Global,type=armor_stand,x=0,y=50,z=49,dx=1,dy=1,dz=1] timeRemaining = @e[name=Global,type=armor_stand,x=0,y=50,z=49,dx=1,dy=1,dz=1] optionTimePVP
 worldborder set 10000000 0
-scoreboard players set @e[name=Global] gameTime -300
+scoreboard players set @e[name=Global,type=armor_stand,x=0,y=50,z=49,dx=1,dy=1,dz=1] gameTime -300
 
 #give all players lives
-scoreboard players operation @a[team=!spectators] lives = @e[name=Global] optionLives
+scoreboard players operation @a[team=!spectators] lives = @e[name=Global,type=armor_stand,x=0,y=50,z=49,dx=1,dy=1,dz=1] optionLives
 scoreboard players set @a[scores={lives=..1},team=!spectators] lives 1
 tag @a[tag=eliminated] remove eliminated
 effect give @a minecraft:instant_health 1 100 true

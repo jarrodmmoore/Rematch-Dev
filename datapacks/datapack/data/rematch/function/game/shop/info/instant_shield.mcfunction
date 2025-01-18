@@ -1,2 +1,2 @@
-tellraw @s ["",{"text":"\n\n\n","type":"text"},{"text":"[Instant Shield]","bold":true,"color":"aqua","type":"text"},{"text":"\n\u2b25 Utility. Provides the user 2 seconds of invinsibility.","type":"text"}]
+tellraw @s ["",{"text":"\n\n\n","type":"text"},{"text":"[Instant Shield]","bold":true,"color":"aqua","type":"text"},{"text":"\n\u2b25 Utility. Provides the user 2 seconds of invincibility.","type":"text"}]
 return 1

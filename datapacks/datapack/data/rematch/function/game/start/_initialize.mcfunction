@@ -1,10 +1,10 @@
-scoreboard players set @e[name=Global] gameState 0
+scoreboard players set @e[name=Global,type=armor_stand,x=0,y=50,z=49,dx=1,dy=1,dz=1] gameState 0
 
-scoreboard players set @e[name=Global] readyState 0
+scoreboard players set @e[name=Global,type=armor_stand,x=0,y=50,z=49,dx=1,dy=1,dz=1] readyState 0
 tag @a remove readyup
 
-tag @e[name=Global] remove noPunch
-tag @e[name=Global] remove noparticles
+tag @e[name=Global,type=armor_stand,x=0,y=50,z=49,dx=1,dy=1,dz=1] remove noPunch
+tag @e[name=Global,type=armor_stand,x=0,y=50,z=49,dx=1,dy=1,dz=1] remove noparticles
 gamerule showDeathMessages false
 
 #guidebook
@@ -73,12 +73,12 @@ tag @a remove playerVote2
 tag @a remove playerVote3
 
 #vote time is 30s (once players are ready)
-scoreboard players set @e[name=Global] voteTime 30
+scoreboard players set @e[name=Global,type=armor_stand,x=0,y=50,z=49,dx=1,dy=1,dz=1] voteTime 30
 
 #lobby time is 40s (once players are ready)
-scoreboard players set @e[name=Global] gameTime 40
+scoreboard players set @e[name=Global,type=armor_stand,x=0,y=50,z=49,dx=1,dy=1,dz=1] gameTime 40
 
-scoreboard players set @e[name=Global] oTimer 1
+scoreboard players set @e[name=Global,type=armor_stand,x=0,y=50,z=49,dx=1,dy=1,dz=1] oTimer 1
 
 function rematch:game/start/reset_player_sb
 

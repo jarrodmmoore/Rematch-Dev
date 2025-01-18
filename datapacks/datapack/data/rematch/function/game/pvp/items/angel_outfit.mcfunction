@@ -1,4 +1,4 @@
-#execute if entity @e[name=Global,scores={oTimer=1}] run effect give @s minecraft:regeneration 2 1 true
+#execute if entity @e[name=Global,type=armor_stand,x=0,y=50,z=49,dx=1,dy=1,dz=1,scores={oTimer=1}] run effect give @s minecraft:regeneration 2 1 true
 effect give @s minecraft:slow_falling 1 0 true
 
 scoreboard players add @s angel_outfit 1

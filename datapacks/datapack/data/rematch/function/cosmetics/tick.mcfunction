@@ -1,9 +1,9 @@
-execute if entity @e[scores={gameState=0},name=Global] run function rematch:cosmetics/particleloop_lobby
-execute if entity @e[tag=!noparticles,scores={gameState=1..},name=Global] run function rematch:cosmetics/particleloop
-execute if entity @e[scores={gameState=0},name=Global] run function rematch:cosmetics/parkourloop
-execute if entity @e[scores={gameState=0},name=Global] run function rematch:cosmetics/creditsloop
-execute if entity @e[scores={gameState=0},name=Global] run function rematch:cosmetics/lobby_letter_heads
-execute if entity @e[scores={gameState=0},name=Global] run function rematch:cosmetics/tutorial/_tick
+execute if entity @e[scores={gameState=0},name=Global,type=armor_stand,x=0,y=50,z=49,dx=1,dy=1,dz=1] run function rematch:cosmetics/particleloop_lobby
+execute if entity @e[tag=!noparticles,scores={gameState=1..},name=Global,type=armor_stand,x=0,y=50,z=49,dx=1,dy=1,dz=1] run function rematch:cosmetics/particleloop
+execute if entity @e[scores={gameState=0},name=Global,type=armor_stand,x=0,y=50,z=49,dx=1,dy=1,dz=1] run function rematch:cosmetics/parkourloop
+execute if entity @e[scores={gameState=0},name=Global,type=armor_stand,x=0,y=50,z=49,dx=1,dy=1,dz=1] run function rematch:cosmetics/creditsloop
+execute if entity @e[scores={gameState=0},name=Global,type=armor_stand,x=0,y=50,z=49,dx=1,dy=1,dz=1] run function rematch:cosmetics/lobby_letter_heads
+execute if entity @e[scores={gameState=0},name=Global,type=armor_stand,x=0,y=50,z=49,dx=1,dy=1,dz=1] run function rematch:cosmetics/tutorial/_tick
 
 execute as @e[tag=hat_selector] at @s if entity @e[type=minecraft:player,distance=..10,limit=1] run function rematch:cosmetics/hats_list
 execute as @e[tag=hat_selector] at @s unless entity @e[type=minecraft:player,distance=..10,limit=1] run item replace entity @s armor.head with minecraft:air

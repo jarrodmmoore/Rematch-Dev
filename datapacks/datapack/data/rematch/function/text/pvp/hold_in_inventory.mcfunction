@@ -1,3 +1,3 @@
-execute unless entity @e[tag=darkHUD,name=Global] run title @s actionbar ["",{"text":"Keep this item in your inventory!","color":"white","type":"text"}]
-execute if entity @e[tag=darkHUD,name=Global] run title @s actionbar ["",{"text":"Keep this item in your inventory!","color":"black","type":"text"}]
+execute unless entity @e[tag=darkHUD,name=Global,type=armor_stand,x=0,y=50,z=49,dx=1,dy=1,dz=1] run title @s actionbar ["",{"text":"Keep this item in your inventory!","color":"white","type":"text"}]
+execute if entity @e[tag=darkHUD,name=Global,type=armor_stand,x=0,y=50,z=49,dx=1,dy=1,dz=1] run title @s actionbar ["",{"text":"Keep this item in your inventory!","color":"black","type":"text"}]
 return 1

@@ -1,19 +1,19 @@
 #Global / gamestate
-scoreboard players set @e[name=Global] gameState 2
-scoreboard players set @e[name=Global] countdown 0
-scoreboard players set @e[name=Global] countdown2 0
-tag @e[name=Global] remove bossbarGather
-scoreboard players reset @e[name=Global] globalTimer
+scoreboard players set @e[name=Global,type=armor_stand,x=0,y=50,z=49,dx=1,dy=1,dz=1] gameState 2
+scoreboard players set @e[name=Global,type=armor_stand,x=0,y=50,z=49,dx=1,dy=1,dz=1] countdown 0
+scoreboard players set @e[name=Global,type=armor_stand,x=0,y=50,z=49,dx=1,dy=1,dz=1] countdown2 0
+tag @e[name=Global,type=armor_stand,x=0,y=50,z=49,dx=1,dy=1,dz=1] remove bossbarGather
+scoreboard players reset @e[name=Global,type=armor_stand,x=0,y=50,z=49,dx=1,dy=1,dz=1] globalTimer
 worldborder set 10000000 0
 function rematch:game/gather/reset_mon
 
 scoreboard objectives remove readyShop
 scoreboard objectives add readyShop dummy ["",{"text":"[Ready] ","color":"dark_green","bold":true,"type":"text"},{"text":"Players","color":"green","bold":true,"type":"text"}]
 
-tag @e[name=Global] add noparticles
-tag @e[name=Global] remove noPunch
+tag @e[name=Global,type=armor_stand,x=0,y=50,z=49,dx=1,dy=1,dz=1] add noparticles
+tag @e[name=Global,type=armor_stand,x=0,y=50,z=49,dx=1,dy=1,dz=1] remove noPunch
 gamerule showDeathMessages false
-scoreboard players reset @e[name=Global] globalTimer
+scoreboard players reset @e[name=Global,type=armor_stand,x=0,y=50,z=49,dx=1,dy=1,dz=1] globalTimer
 
 #kill currency stands
 kill @e[tag=currencystand]
@@ -29,8 +29,8 @@ effect give @a minecraft:instant_health 1 100 true
 clear @a minecraft:written_book
 
 #readyup system
-scoreboard players set @e[name=Global] gameTime 20
-scoreboard players set @e[name=Global] readyState 0
+scoreboard players set @e[name=Global,type=armor_stand,x=0,y=50,z=49,dx=1,dy=1,dz=1] gameTime 20
+scoreboard players set @e[name=Global,type=armor_stand,x=0,y=50,z=49,dx=1,dy=1,dz=1] readyState 0
 tag @a remove readyup
 
 #clear all bossbars
@@ -63,7 +63,7 @@ function help:490246966048558f1b2e5a70f15b61b9098224824bbd3ba7e5a29be9209fecca
 scoreboard players add @a currency 0
 
 #initiate text
-tag @e[name=Global] add text_start2
+tag @e[name=Global,type=armor_stand,x=0,y=50,z=49,dx=1,dy=1,dz=1] add text_start2
 title @a times 0 20 20
 
 #reset @a on shop ready up

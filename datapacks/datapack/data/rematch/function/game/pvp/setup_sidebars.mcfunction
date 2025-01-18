@@ -1,8 +1,8 @@
 scoreboard objectives setdisplay sidebar lives
 scoreboard objectives setdisplay sidebar.team.red
 scoreboard objectives setdisplay sidebar.team.blue
-execute if entity @e[tag=teamplay,name=Global] run scoreboard objectives setdisplay sidebar.team.red redlives
-execute if entity @e[tag=teamplay,name=Global] run scoreboard objectives setdisplay sidebar.team.blue bluelives
+execute if entity @e[tag=teamplay,name=Global,type=armor_stand,x=0,y=50,z=49,dx=1,dy=1,dz=1] run scoreboard objectives setdisplay sidebar.team.red redlives
+execute if entity @e[tag=teamplay,name=Global,type=armor_stand,x=0,y=50,z=49,dx=1,dy=1,dz=1] run scoreboard objectives setdisplay sidebar.team.blue bluelives
 
 team modify players friendlyFire true
 team modify redplayers collisionRule pushOtherTeams
@@ -19,7 +19,7 @@ kill @e[tag=phase3item]
 kill @e[type=minecraft:arrow]
 kill @e[type=minecraft:trident]
 
-tag @e[name=Global] remove noparticles
-tag @e[name=Global] remove noPunch
+tag @e[name=Global,type=armor_stand,x=0,y=50,z=49,dx=1,dy=1,dz=1] remove noparticles
+tag @e[name=Global,type=armor_stand,x=0,y=50,z=49,dx=1,dy=1,dz=1] remove noPunch
 effect clear @a minecraft:weakness
 return 1

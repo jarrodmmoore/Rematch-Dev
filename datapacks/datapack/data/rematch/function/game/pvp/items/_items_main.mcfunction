@@ -18,7 +18,8 @@ scoreboard players add @a[nbt={Inventory:[{id:"minecraft:brewing_stand"}]}] brew
 execute as @a[scores={brewingTime=600..}] at @s run function rematch:game/pvp/items/brew_potion
 
 #vampire teeth
-effect give @a[scores={hitPlayer=1..},nbt={Inventory:[{id:"minecraft:ghast_tear"}]}] minecraft:instant_health 1 0 true
+execute as @a[scores={hitPlayer=1..},nbt={Inventory:[{id:"minecraft:ghast_tear"}]}] run function rematch:game/pvp/items/vampire_healing_chance
+#effect give @a[scores={hitPlayer=1..},nbt={Inventory:[{id:"minecraft:ghast_tear"}]}] minecraft:instant_health 1 0 true
 scoreboard players reset @a[scores={hitPlayer=1..}] hitPlayer
 
 #================================

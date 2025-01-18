@@ -623,6 +623,6 @@ execute positioned 1154 73 1198 run function rematch:game/gather/random/random_o
 execute positioned 1153 74 1197 run function rematch:game/gather/random/random_ore
 execute positioned 1153 77 1197 run function rematch:game/gather/random/random_ore
 
-scoreboard players reset @e[name=Global] randomSelect
-scoreboard players reset @e[name=Global] arenaID
+scoreboard players reset @e[name=Global,type=armor_stand,x=0,y=50,z=49,dx=1,dy=1,dz=1] randomSelect
+scoreboard players reset @e[name=Global,type=armor_stand,x=0,y=50,z=49,dx=1,dy=1,dz=1] arenaID
 return 1
