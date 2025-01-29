@@ -1,6 +1,6 @@
 #pigstep
 scoreboard players add @s pigstep 1
-execute if entity @s[scores={pigstep=1}] at @s run playsound minecraft:music_disc.pigstep master @s ~ ~ ~ 100000 1
+execute if entity @s[scores={pigstep=1}] at @s run playsound minecraft:music_disc.pigstep master @s ~ 100000 ~ 100000 1
 execute if entity @s[scores={pigstep=2880}] run scoreboard players reset @s pigstep
 
 #rainbow effect

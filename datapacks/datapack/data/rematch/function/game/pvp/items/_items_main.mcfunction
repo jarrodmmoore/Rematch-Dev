@@ -28,7 +28,7 @@ scoreboard players reset @a[scores={hitPlayer=1..}] hitPlayer
 execute as @a[gamemode=adventure,team=!spectators,nbt={SelectedItem:{components:{"minecraft:custom_data":{Tags:["rumblerod"]}}}}] at @s run function rematch:game/pvp/items/rumble_rod
 
 #exploding arrows
-execute as @e[type=minecraft:arrow,nbt={inGround:1b,item:{id:"minecraft:arrow",count:1,components:{"minecraft:potion_contents":{potion:"minecraft:awkward"}}}}] at @s run function rematch:game/pvp/items/exploding_arrow
+execute as @e[type=minecraft:arrow,nbt={inGround:1b}] if data entity @s item.components.minecraft:custom_data.explosiveArrow at @s run function rematch:game/pvp/items/exploding_arrow
 
 #totem of undying
 execute as @a[scores={use_totem=1..}] run effect clear @s minecraft:regeneration
