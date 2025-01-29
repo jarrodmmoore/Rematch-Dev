@@ -1,5 +1,5 @@
 # Rematch
-A 3-phase PVP minigame for Minecraft: Java Edition
+A 3-phase PVP minigame for Minecraft: Java Edition. This map was created by Team Scripted in 2020 and is now being maintained by myself to keep it working on current Minecraft versions.
 
 ## Installation
 This repository is the world file containing everything needed to play the map. It should be placed in `.minecraft/saves` as an uncompressed folder.
