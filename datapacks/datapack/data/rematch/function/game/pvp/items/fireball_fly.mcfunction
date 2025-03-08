@@ -27,4 +27,3 @@ tag @a[tag=target] remove target
 
 scoreboard players add @s age 1
 kill @s[scores={age=120..}]
-return 1

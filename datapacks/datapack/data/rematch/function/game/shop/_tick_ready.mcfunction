@@ -27,4 +27,3 @@ function rematch:text/shop_messages/bossbar_unready_up
 
 #time's up, start phase 3
 execute if entity @e[scores={gameTime=0},name=Global,type=armor_stand,x=0,y=50,z=49,dx=1,dy=1,dz=1] run function rematch:game/pvp/_initialize
-return 1

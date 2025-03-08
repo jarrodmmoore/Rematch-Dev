@@ -17,4 +17,3 @@ execute if entity @s[tag=!hasCarrot,tag=!noInventory] run item replace entity @s
 
 #input cooldown
 scoreboard players remove @s[scores={inputCooldown=1..}] inputCooldown 1
-return 1

@@ -11,4 +11,3 @@ tag @e[type=minecraft:fishing_bobber,tag=bobberHasID,scores={math=0}] add myBobb
 execute if entity @e[tag=myBobber,nbt={OnGround:1b}] at @e[tag=myBobber,limit=1] run function rematch:game/pvp/items/rumble_rod_hit
 
 tag @e[tag=myBobber] remove myBobber
-return 1

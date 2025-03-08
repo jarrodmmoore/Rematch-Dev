@@ -622,4 +622,3 @@ setblock 1155 72 1199 minecraft:stone
 setblock 1154 73 1198 minecraft:stone
 setblock 1153 74 1197 minecraft:stone
 setblock 1153 77 1197 minecraft:stone
-return 1

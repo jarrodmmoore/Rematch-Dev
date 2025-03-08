@@ -9,4 +9,3 @@ execute if entity @e[tag=teamplay,name=Global,type=armor_stand,x=0,y=50,z=49,dx=
 execute if entity @e[tag=teamplay,name=Global,type=armor_stand,x=0,y=50,z=49,dx=1,dy=1,dz=1] run tellraw @a ["",{"text":"Last team with living players wins.","type":"text"}]
 
 tellraw @a ["",{"text":" ","type":"text"}]
-return 1

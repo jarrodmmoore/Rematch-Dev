@@ -1,2 +1,1 @@
 tellraw @s ["",{"text":"\n\n\n","type":"text"},{"text":"[Flame Stick]","bold":true,"color":"red","type":"text"},{"text":"\n\u2b25 Melee item. Infused with fire aspect.","type":"text"}]
-return 1

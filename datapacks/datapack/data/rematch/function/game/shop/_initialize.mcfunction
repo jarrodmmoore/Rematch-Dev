@@ -59,7 +59,7 @@ clear @a[team=players] minecraft:beetroot_soup
 clear @a[team=players] minecraft:sea_lantern
 clear @a[team=players] minecraft:redstone_block
 effect clear @a[team=players] minecraft:speed
-function help:490246966048558f1b2e5a70f15b61b9098224824bbd3ba7e5a29be9209fecca
+effect clear @a[team=players] minecraft:jump_boost
 scoreboard players add @a currency 0
 
 #initiate text
@@ -68,4 +68,3 @@ title @a times 0 20 20
 
 #reset @a on shop ready up
 scoreboard players set @a readyShop 0
-return 1

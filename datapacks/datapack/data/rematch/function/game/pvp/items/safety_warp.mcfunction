@@ -8,10 +8,9 @@ particle minecraft:falling_dust{block_state:{Name:"minecraft:emerald_block"}} ~ 
 execute if entity @e[scores={timeRemaining=0..},name=Global,type=armor_stand,x=0,y=50,z=49,dx=1,dy=1,dz=1] run function rematch:game/pvp/safety_warp_away
 
 #worldborder is closing in, tp self upward and get slow falling
-execute unless entity @e[scores={timeRemaining=0..},name=Global,type=armor_stand,x=0,y=50,z=49,dx=1,dy=1,dz=1] run function help:8cf14a18ca4f037dc58f7c01a35881efc8f36124198a82ce6402c0d65ece51fd
+execute unless entity @e[scores={timeRemaining=0..},name=Global,type=armor_stand,x=0,y=50,z=49,dx=1,dy=1,dz=1] run effect give @s minecraft:levitation 1 100 true
 execute unless entity @e[scores={timeRemaining=0..},name=Global,type=armor_stand,x=0,y=50,z=49,dx=1,dy=1,dz=1] run effect give @s minecraft:slow_falling 15 0 false
 
 tag @s remove self
 
 scoreboard players reset @s dropEmeraldBlock
-return 1

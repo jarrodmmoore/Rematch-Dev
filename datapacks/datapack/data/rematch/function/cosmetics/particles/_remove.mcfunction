@@ -21,4 +21,3 @@ tag @s remove Snowstep
 tag @s remove Sweat
 tag @s remove Brewing
 tag @s remove Brewing_display
-return 1

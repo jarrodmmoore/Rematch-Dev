@@ -10,4 +10,3 @@ function rematch:game/gather/currency_playsound
 clear @s minecraft:tripwire_hook
 
 scoreboard players operation @e[tag=currencystand] math += @s playerID
-return 1

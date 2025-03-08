@@ -16,5 +16,3 @@ execute as @e[tag=rotated,scores={info_timer=1}] at @s as @a[sort=nearest,limit=
 execute as @e[tag=rotated,scores={info_timer=1}] at @s rotated as @s positioned ^ ^-1 ^-0.3 run function rematch:game/shop/info/_check
 
 
-
-return 1

@@ -1,3 +1,2 @@
 execute at @s run playsound minecraft:block.note_block.pling master @s ~ ~ ~ 1 1.5
 tellraw @s ["",{"text":"\n\n\uE000","type":"text"},{"text":"  Join the Discord!","bold":true,"color":"white","type":"text"},{"text":"\n\n\n\n","type":"text"},{"text":"\u2b1d Participate in tournaments!\n\u2b1e Learn about future projects!","color":"green","type":"text"},{"text":"\n\n","type":"text"},{"text":"Click here to join!  ","italic":true,"color":"dark_green","type":"text"},{"text":"[Discord]","color":"dark_gray","clickEvent":{"action":"open_url","value":"https://discord.gg/jbFWf3x"},"hoverEvent":{"action":"show_text","contents":{"text":"Click here!","italic":true,"color":"aqua","type":"text"}},"type":"text"},{"text":" ","type":"text"}]
-return 1

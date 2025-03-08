@@ -22,4 +22,3 @@ item replace entity @s[scores={berries_picked=11..16}] weapon.offhand with minec
 item replace entity @s[scores={berries_picked=17..}] weapon.offhand with minecraft:beetroot_soup[minecraft:custom_name='"Gathering Basket"',minecraft:item_name='{"extra":["Gathering Basket"],"text":"EMU"}',minecraft:lore=['"Great at carrying fruit!"'],minecraft:custom_data={Tags:["tool7","killonground"],emu_lock_name:'"Gathering Basket"'}]
 
 #item replace entity @s hotbar.8 with redstone_block{display:{Name:"[{\"text\":\"Lost a tool?\"}]",Lore:["{\"text\":\"Press q to get a new set of tools!\"}"]}}
-return 1

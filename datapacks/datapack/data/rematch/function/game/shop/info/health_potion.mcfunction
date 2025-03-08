@@ -1,2 +1,1 @@
 tellraw @s ["",{"text":"\n\n\n","type":"text"},{"text":"[Health I Potion]","bold":true,"color":"red","type":"text"},{"text":"\n\u2b25 Utility. Yields a small amount of instant health.","type":"text"}]
-return 1

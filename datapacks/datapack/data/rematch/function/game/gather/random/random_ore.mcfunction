@@ -21,4 +21,3 @@ execute if entity @e[scores={math=..2,math2=4},name=Global,type=armor_stand,x=0,
 
 execute if entity @e[scores={math=1,randomSelect=..3,arenaID=..2},name=Global,type=armor_stand,x=0,y=50,z=49,dx=1,dy=1,dz=1] run setblock ~ ~ ~ minecraft:diamond_ore
 execute if entity @e[scores={math=1,randomSelect=..3,arenaID=5},name=Global,type=armor_stand,x=0,y=50,z=49,dx=1,dy=1,dz=1] run setblock ~ ~ ~ minecraft:emerald_ore
-return 1

@@ -39,4 +39,3 @@ tag @e[tag=aimMe] remove aimMe
 tag @s remove self
 
 scoreboard players reset @s dropFireball
-return 1

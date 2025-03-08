@@ -18,4 +18,3 @@ execute if entity @s[scores={math=-17}] run function rematch:damage_indicators/h
 execute if entity @s[scores={math=-18}] run function rematch:damage_indicators/hurt/18
 execute if entity @s[scores={math=-19}] run function rematch:damage_indicators/hurt/19
 execute if entity @s[scores={math=..-20}] run function rematch:damage_indicators/hurt/20
-return 1

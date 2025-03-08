@@ -106,4 +106,3 @@ execute positioned 1206 71 1329 run function rematch:game/gather/random/random_o
 
 #resummon monsters
 #function rematch:game/gather/generate_monsters
-return 1

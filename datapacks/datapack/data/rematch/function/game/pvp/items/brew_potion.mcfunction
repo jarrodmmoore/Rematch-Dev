@@ -11,4 +11,3 @@ execute if entity @s[scores={math=5}] run give @s minecraft:splash_potion[minecr
 execute if entity @s[scores={math=6}] run give @s minecraft:splash_potion[minecraft:custom_name='{"bold":true,"color":"dark_gray","text":"Weakness Potion"}',minecraft:item_name='{"extra":["Weakness Potion"],"text":"EMU"}',minecraft:potion_contents={potion:"minecraft:weakness"},minecraft:custom_data={emu_lock_name:'{"bold":true,"color":"dark_gray","text":"Weakness Potion"}'}] 1
 
 scoreboard players reset @s brewingTime
-return 1

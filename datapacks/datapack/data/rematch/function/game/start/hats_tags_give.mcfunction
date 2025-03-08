@@ -13,4 +13,3 @@ execute as @e[nbt={Inventory:[{id:"minecraft:player_head",components:{"minecraft
 execute as @e[nbt={Inventory:[{id:"minecraft:player_head",components:{"minecraft:custom_name":'"Dice"',"minecraft:item_name":'{"extra":["Dice"],"text":"EMU"}',"minecraft:custom_data":{emu_lock_name:'"Dice"'}},count:1,Slot:103b}]}] run tag @s add hat_dice
 execute as @e[nbt={Inventory:[{id:"minecraft:player_head",components:{"minecraft:custom_name":'"Puzzle Cube"',"minecraft:item_name":'{"extra":["Puzzle Cube"],"text":"EMU"}',"minecraft:custom_data":{emu_lock_name:'"Puzzle Cube"'}},count:1,Slot:103b}]}] run tag @s add hat_puzzle
 execute as @e[nbt={Inventory:[{id:"minecraft:player_head",components:{"minecraft:custom_name":'"Present"',"minecraft:item_name":'{"extra":["Present"],"text":"EMU"}',"minecraft:custom_data":{emu_lock_name:'"Present"'}},count:1,Slot:103b}]}] run tag @s add hat_present
-return 1

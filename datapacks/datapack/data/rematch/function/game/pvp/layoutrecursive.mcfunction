@@ -6,4 +6,3 @@ execute at @s run setblock ~ ~ ~ minecraft:chest[type=right]{lock:{components:{"
 execute at @s run tp @s ~1 ~ ~
 scoreboard players remove @s math 1
 execute unless entity @s[scores={math=0}] run function rematch:game/pvp/layoutrecursive
-return 1

@@ -48,5 +48,3 @@ execute if entity @e[tag=hat_selector,scores={hat_score=16}] run item replace en
 
 execute if entity @e[tag=hat_selector,scores={hat_score=17}] run scoreboard players set @e[tag=hat_selector] hat_score 1
 execute if entity @e[tag=hat_selector,scores={hat_score=0}] run scoreboard players set @e[tag=hat_selector] hat_score 16
-
-return 1

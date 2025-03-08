@@ -1,2 +1,1 @@
 tellraw @s ["",{"text":"\n\n\n","type":"text"},{"text":"[Slowfall Potion]","bold":true,"type":"text"},{"text":"\n\u2b25 Utility. Grants the user the slowfalling effect.","type":"text"}]
-return 1

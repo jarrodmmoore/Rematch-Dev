@@ -29,4 +29,3 @@ execute if entity @e[scores={gameTime=0},name=Global,type=armor_stand,x=0,y=50,z
 execute if entity @e[scores={gameTime=0},name=Global,type=armor_stand,x=0,y=50,z=49,dx=1,dy=1,dz=1] run scoreboard players set @e[tag=layoutstand] layoutID 0
 execute if entity @e[scores={gameTime=0},name=Global,type=armor_stand,x=0,y=50,z=49,dx=1,dy=1,dz=1] as @a[team=!spectator] run scoreboard players operation @s layoutID_temp = @s layoutID
 execute if entity @e[scores={gameTime=0},name=Global,type=armor_stand,x=0,y=50,z=49,dx=1,dy=1,dz=1] as @e[tag=layoutstand,limit=1] at @s run function rematch:game/pvp/loadlayouts
-return 1

@@ -6,4 +6,3 @@ scoreboard players reset * layoutID
 scoreboard players reset * layoutID_temp
 scoreboard players reset * pigstep
 scoreboard players reset * angel_outfit
-return 1

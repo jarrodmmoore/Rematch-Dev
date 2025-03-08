@@ -1,2 +1,1 @@
 tellraw @s ["",{"text":"\n\n\n","type":"text"},{"text":"[Bow]","bold":true,"color":"white","type":"text"},{"text":"\n\u2b25 Ranged weapon.","type":"text"}]
-return 1

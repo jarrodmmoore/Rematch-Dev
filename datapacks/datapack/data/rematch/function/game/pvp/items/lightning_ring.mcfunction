@@ -11,4 +11,3 @@ particle minecraft:end_rod ~ ~.5 ~ 2.0 0 2.0 .01 20
 
 tag @s remove self
 tag @a[tag=target] remove target
-return 1

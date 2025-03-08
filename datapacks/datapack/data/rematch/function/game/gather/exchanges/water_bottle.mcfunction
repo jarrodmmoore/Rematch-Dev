@@ -10,4 +10,3 @@ function rematch:game/gather/currency_playsound
 clear @s minecraft:potion[minecraft:potion_contents={potion:"minecraft:water"}]
 
 scoreboard players operation @e[tag=currencystand] math += @s playerID
-return 1

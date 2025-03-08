@@ -45,7 +45,7 @@ clear @a minecraft:written_book
 tp @a[team=players] 1265 75 1212
 effect give @a[team=players] minecraft:blindness 15 255 true
 effect give @a[team=players] minecraft:slowness 16 255 true
-function help:62c303cf151d5132af1d1fde4a0a19138c41432953b2d780eb9b1c61111956df
+execute as @a[team=players] run attribute @s minecraft:jump_strength base set 0.0
 spawnpoint @a[team=players] 1260 75 1218
 effect give @a minecraft:instant_health 1 100 true
 scoreboard players set @a berries_picked 0
@@ -56,4 +56,3 @@ gamemode spectator @a[team=spectators]
 function rematch:game/gather/clear_inventory
 title @a[team=players] times 0 60 0
 scoreboard players set @e[name=Global,type=armor_stand,x=0,y=50,z=49,dx=1,dy=1,dz=1] countdown 1
-return 1

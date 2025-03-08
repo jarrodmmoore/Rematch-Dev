@@ -49,5 +49,3 @@ execute at @e[tag=layoutfinder,tag=found,limit=1] run item replace entity @s wea
 #kill armor stand
 kill @e[tag=layoutfinder,tag=found]
 
-
-return 1

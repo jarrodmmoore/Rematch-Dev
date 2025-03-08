@@ -5,4 +5,3 @@ function rematch:cosmetics/parkour/parkour_easy_end
 function rematch:cosmetics/parkour/parkour_medium_end
 function rematch:cosmetics/parkour/parkour_hard_end
 function rematch:cosmetics/parkour/parkour_tag_remover
-return 1

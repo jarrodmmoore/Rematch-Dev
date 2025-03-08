@@ -6,4 +6,3 @@ execute if entity @a[tag=user,team=blueplayers] run tag @s add blueitem
 execute if entity @a[tag=user] run tag @s add itemHasID
 
 tag @a[tag=user] remove user
-return 1

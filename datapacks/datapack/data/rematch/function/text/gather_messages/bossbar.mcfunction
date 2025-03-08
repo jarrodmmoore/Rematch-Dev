@@ -6,5 +6,3 @@ execute if entity @e[scores={seconds=..9,isYellow=1..,isGreen=..0},name=Global,t
 execute if entity @e[scores={seconds=10..,isYellow=..0},name=Global,type=armor_stand,x=0,y=50,z=49,dx=1,dy=1,dz=1] run bossbar set minecraft:timer name [{"text":"Time remaining: ","color":"dark_red","type":"text"},{"score":{"name":"@e[name=Global,type=armor_stand,x=0,y=50,z=49,dx=1,dy=1,dz=1]","objective":"minutes"},"type":"score"},{"text":":","color":"dark_red","type":"text"},{"score":{"name":"@e[name=Global,type=armor_stand,x=0,y=50,z=49,dx=1,dy=1,dz=1]","objective":"seconds"},"type":"score"}]
 execute if entity @e[scores={seconds=..9,isYellow=..0},name=Global,type=armor_stand,x=0,y=50,z=49,dx=1,dy=1,dz=1] run bossbar set minecraft:timer name [{"text":"Time remaining: ","color":"dark_red","type":"text"},{"score":{"name":"@e[name=Global,type=armor_stand,x=0,y=50,z=49,dx=1,dy=1,dz=1]","objective":"minutes"},"type":"score"},{"text":":0","color":"dark_red","type":"text"},{"score":{"name":"@e[name=Global,type=armor_stand,x=0,y=50,z=49,dx=1,dy=1,dz=1]","objective":"seconds"},"type":"score"}]
 
-
-return 1

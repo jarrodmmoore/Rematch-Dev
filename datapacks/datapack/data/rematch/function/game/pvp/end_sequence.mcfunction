@@ -34,7 +34,7 @@ execute if entity @e[scores={gameTime=100080},name=Global,type=armor_stand,x=0,y
 execute if entity @e[scores={gameTime=100120},name=Global,type=armor_stand,x=0,y=50,z=49,dx=1,dy=1,dz=1] as @a[gamemode=adventure,tag=winner,tag=we_chicken] at @s run function rematch:game/pvp/winner_chicken
 execute if entity @e[scores={gameTime=100160},name=Global,type=armor_stand,x=0,y=50,z=49,dx=1,dy=1,dz=1] as @a[gamemode=adventure,tag=winner,tag=we_chicken] at @s run function rematch:game/pvp/winner_chicken
 execute if entity @e[scores={gameTime=100000..},name=Global,type=armor_stand,x=0,y=50,z=49,dx=1,dy=1,dz=1] if entity @e[gamemode=adventure,tag=winner,tag=we_chicken] run function rematch:game/pvp/egg_chicken_timer
-execute if entity @e[scores={gameTime=100280},name=Global,type=armor_stand,x=0,y=50,z=49,dx=1,dy=1,dz=1] as @a[gamemode=adventure,tag=winner,tag=we_chicken] at @s run function help:b1b7b32c383cf7c8ae900b807469e3bc552abb04df1f75545c9693e4e338107d
+execute if entity @e[scores={gameTime=100280},name=Global,type=armor_stand,x=0,y=50,z=49,dx=1,dy=1,dz=1] as @a[gamemode=adventure,tag=winner,tag=we_chicken] at @s run effect clear @s
 execute if entity @e[scores={gameTime=100280},name=Global,type=armor_stand,x=0,y=50,z=49,dx=1,dy=1,dz=1] as @a[gamemode=adventure,tag=winner,tag=we_chicken] at @s run kill @e[type=minecraft:chicken,distance=..300]
 
 #fish win effect
@@ -73,7 +73,7 @@ execute as @e[tag=we_f_fish] at @s run particle minecraft:bubble ~ ~-0.2 ~ 0.2 0
 execute if entity @e[scores={gameTime=100040},name=Global,type=armor_stand,x=0,y=50,z=49,dx=1,dy=1,dz=1] as @a[gamemode=adventure,tag=winner,tag=we_demo] at @s run function rematch:game/start/hats_tags_give
 execute if entity @e[scores={gameTime=100040},name=Global,type=armor_stand,x=0,y=50,z=49,dx=1,dy=1,dz=1] as @a[gamemode=adventure,tag=winner,tag=we_demo] at @s run clear @s
 execute if entity @e[scores={gameTime=100040},name=Global,type=armor_stand,x=0,y=50,z=49,dx=1,dy=1,dz=1] as @a[gamemode=adventure,tag=winner,tag=we_demo] at @s run function rematch:game/start/hats_tags_clear
-execute if entity @e[scores={gameTime=100040},name=Global,type=armor_stand,x=0,y=50,z=49,dx=1,dy=1,dz=1] as @a[gamemode=adventure,tag=winner,tag=we_demo] at @s run function help:b1b7b32c383cf7c8ae900b807469e3bc552abb04df1f75545c9693e4e338107d
+execute if entity @e[scores={gameTime=100040},name=Global,type=armor_stand,x=0,y=50,z=49,dx=1,dy=1,dz=1] as @a[gamemode=adventure,tag=winner,tag=we_demo] at @s run effect clear @s
 execute if entity @e[scores={gameTime=100040},name=Global,type=armor_stand,x=0,y=50,z=49,dx=1,dy=1,dz=1] as @a[gamemode=adventure,tag=winner,tag=we_demo] at @s run effect give @s minecraft:resistance 100000 255 true
 execute if entity @e[scores={gameTime=100040},name=Global,type=armor_stand,x=0,y=50,z=49,dx=1,dy=1,dz=1] as @a[gamemode=adventure,tag=winner,tag=we_demo] at @s run effect give @s minecraft:speed 100000 5 true
 execute if entity @e[scores={gameTime=100060},name=Global,type=armor_stand,x=0,y=50,z=49,dx=1,dy=1,dz=1] as @a[gamemode=adventure,tag=winner,tag=we_demo] at @s run summon minecraft:creeper ~ ~0.5 ~ {Fuse:0s,ExplosionRadius:5b}
@@ -82,7 +82,7 @@ execute if entity @e[scores={gameTime=100140},name=Global,type=armor_stand,x=0,y
 execute if entity @e[scores={gameTime=100180},name=Global,type=armor_stand,x=0,y=50,z=49,dx=1,dy=1,dz=1] as @a[gamemode=adventure,tag=winner,tag=we_demo] at @s run summon minecraft:creeper ~ ~0.5 ~ {Fuse:0s,ExplosionRadius:5b}
 execute if entity @e[scores={gameTime=100220},name=Global,type=armor_stand,x=0,y=50,z=49,dx=1,dy=1,dz=1] as @a[gamemode=adventure,tag=winner,tag=we_demo] at @s run summon minecraft:creeper ~ ~0.5 ~ {Fuse:0s,ExplosionRadius:5b}
 execute if entity @e[scores={gameTime=100040..},name=Global,type=armor_stand,x=0,y=50,z=49,dx=1,dy=1,dz=1] as @a[gamemode=adventure,tag=winner,tag=we_demo] at @s run particle minecraft:dust{color:[0.369f,0.369f,0.369f],scale:1.0f} ~ ~2 ~ 0.25 0 0.25 0 5 normal @a
-execute if entity @e[scores={gameTime=100290},name=Global,type=armor_stand,x=0,y=50,z=49,dx=1,dy=1,dz=1] as @a[gamemode=adventure,tag=winner,tag=we_demo] at @s run function help:b1b7b32c383cf7c8ae900b807469e3bc552abb04df1f75545c9693e4e338107d
+execute if entity @e[scores={gameTime=100290},name=Global,type=armor_stand,x=0,y=50,z=49,dx=1,dy=1,dz=1] as @a[gamemode=adventure,tag=winner,tag=we_demo] at @s run effect clear @s
 
 #streamer win effect
 execute if entity @e[scores={gameTime=100060},name=Global,type=armor_stand,x=0,y=50,z=49,dx=1,dy=1,dz=1] as @a[gamemode=adventure,tag=winner,tag=we_streamer] at @s run function rematch:game/pvp/winner_streamers
@@ -120,4 +120,3 @@ kill @e[type=minecraft:snowball,tag=we_s_streamer,scores={gameTime=20}]
 execute if entity @e[tag=effectaxolotl] run kill @e[tag=effectaxolotl]
 
 execute if entity @e[scores={gameTime=100300..},name=Global,type=armor_stand,x=0,y=50,z=49,dx=1,dy=1,dz=1] run function rematch:game/start/_initialize
-return 1

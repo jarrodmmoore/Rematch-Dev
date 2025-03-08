@@ -33,4 +33,3 @@ execute as @e[tag=kill_effect_selector] at @s unless entity @e[type=minecraft:pl
 function rematch:cosmetics/win_effect
 
 function rematch:cosmetics/settings
-return 1

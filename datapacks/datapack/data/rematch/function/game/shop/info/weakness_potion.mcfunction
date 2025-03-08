@@ -1,2 +1,1 @@
 tellraw @s ["",{"text":"\n\n\n","type":"text"},{"text":"[Weakness Potion]","bold":true,"color":"dark_gray","type":"text"},{"text":"\n\u2b25 Ranged item. Applies weakness to hit players.","type":"text"}]
-return 1

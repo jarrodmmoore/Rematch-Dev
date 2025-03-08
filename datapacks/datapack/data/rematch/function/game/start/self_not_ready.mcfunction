@@ -3,4 +3,3 @@ scoreboard players set @s inputCooldown 13
 tag @s remove readyup
 
 scoreboard players set @s readyShop 0
-return 1

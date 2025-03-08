@@ -13,4 +13,3 @@ tag @s remove Sizzle
 tag @s remove Shatter
 tag @s remove Retro
 tag @s remove Ring
-return 1

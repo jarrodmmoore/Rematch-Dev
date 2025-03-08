@@ -46,5 +46,3 @@ execute positioned 1327 73 1335 run function rematch:game/gather/random/random_w
 execute positioned 1324 73 1313 run function rematch:game/gather/random/random_wolf
 execute positioned 1324 73 1313 run function rematch:game/gather/random/random_wolf
 
-
-return 1

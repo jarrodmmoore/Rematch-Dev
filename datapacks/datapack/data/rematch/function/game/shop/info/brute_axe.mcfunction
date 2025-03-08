@@ -1,2 +1,1 @@
 tellraw @s ["",{"text":"\n\n","type":"text"},{"text":"[Brute's Axe]","bold":true,"type":"text"},{"text":"\n\u2b25 Melee weapon. Yields massive damage while slowing down\nthe user's attack speed.","type":"text"}]
-return 1

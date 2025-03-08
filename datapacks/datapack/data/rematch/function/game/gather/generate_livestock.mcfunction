@@ -24,5 +24,3 @@ kill @e[tag=generate_livestock]
 
 
 
-
-return 1

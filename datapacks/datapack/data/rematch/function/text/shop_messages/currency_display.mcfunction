@@ -1,2 +1,1 @@
 title @s actionbar ["",{"text":"Coins: [","color":"gold","bold":true,"type":"text"},{"score":{"name":"@s","objective":"currency"},"color":"gold","bold":true,"type":"score"},{"text":"]","color":"gold","bold":true,"type":"text"}]
-return 1

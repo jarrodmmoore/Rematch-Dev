@@ -13,4 +13,3 @@ tag @a[tag=target] remove target
 tag @s remove trapcheck
 
 kill @s[tag=die]
-return 1

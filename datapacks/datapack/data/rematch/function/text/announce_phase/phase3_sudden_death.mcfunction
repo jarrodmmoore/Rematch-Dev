@@ -7,4 +7,3 @@ tellraw @a ["",{"text":"Watch out, the world border is closing in!","color":"red
 tellraw @a ["",{"text":" ","type":"text"}]
 
 execute as @a run playsound minecraft:entity.wither.spawn master @s ~ 100000 ~ 1000000
-return 1

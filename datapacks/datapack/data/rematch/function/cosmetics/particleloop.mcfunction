@@ -18,4 +18,3 @@ function rematch:cosmetics/particles/pheonix_display
 execute if entity @e[tag=Snowstep] run function rematch:cosmetics/particles/snowstep
 execute if entity @e[tag=Brewing] run function rematch:cosmetics/particles/brewing
 execute if entity @e[tag=Green_Step] run function rematch:cosmetics/particles/green_step
-return 1

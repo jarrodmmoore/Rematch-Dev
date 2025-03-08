@@ -1,2 +1,1 @@
 tellraw @s ["",{"text":"\n\n","type":"text"},{"text":"[Fungus]","bold":true,"color":"red","type":"text"},{"text":"\n\u2b25 Proximity item. Drop to apply wither effect to nearby\nplayers.","type":"text"}]
-return 1

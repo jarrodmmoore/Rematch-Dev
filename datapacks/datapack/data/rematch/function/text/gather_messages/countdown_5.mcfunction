@@ -56,4 +56,3 @@ execute if entity @e[scores={countdown=245},name=Global,type=armor_stand,x=0,y=5
 execute if entity @e[scores={countdown=245},name=Global,type=armor_stand,x=0,y=50,z=49,dx=1,dy=1,dz=1] as @a[team=players] at @s run playsound minecraft:block.note_block.pling master @s ~ ~ ~ 1 2
 
 execute if entity @e[tag=gather,scores={countdown=245..},name=Global,type=armor_stand,x=0,y=50,z=49,dx=1,dy=1,dz=1] run scoreboard players reset @e[name=Global,type=armor_stand,x=0,y=50,z=49,dx=1,dy=1,dz=1] countdown
-return 1

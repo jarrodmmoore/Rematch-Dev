@@ -13,4 +13,3 @@ tag @s remove ke_sunset
 tag @s remove ke_frost
 tag @s remove ke_nature
 tag @s remove ke_silver
-return 1

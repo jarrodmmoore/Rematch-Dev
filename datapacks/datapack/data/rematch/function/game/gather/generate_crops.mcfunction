@@ -6876,4 +6876,3 @@ execute if block 1291 75 1091 minecraft:farmland run setblock 1291 76 1091 minec
 execute if block 1291 75 1091 minecraft:farmland positioned 1291 76 1091 run function rematch:game/gather/random/random_crop
 
 scoreboard players reset @e[name=Global,type=armor_stand,x=0,y=50,z=49,dx=1,dy=1,dz=1] randomSelect
-return 1

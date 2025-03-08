@@ -28,4 +28,3 @@ setblock 1269 76 1063 minecraft:air
 setblock 1266 76 1062 minecraft:air
 setblock 1379 76 1330 minecraft:air
 setblock 1387 84 1326 minecraft:air
-return 1

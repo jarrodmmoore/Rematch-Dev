@@ -19,4 +19,3 @@ tag @a remove sheep_presence
 scoreboard players reset @s kill_sheep
 
 scoreboard players operation @e[tag=currencystand] math += @s playerID
-return 1

@@ -38,4 +38,3 @@ execute as @e[type=!minecraft:item,tag=Party_display,scores={particle_Party=11}]
 execute as @e[type=!minecraft:item,tag=Party_display,scores={particle_Party=14}] at @s run summon minecraft:item ~ ~0.8 ~ {Item:{id:"minecraft:green_wool",count:1},Motion:[-0.0125d,0.4d,-0.0375d],Tags:["Party_popper_item","nopickup"],Age:-32768,PickupDelay:32767}
 execute as @e[type=!minecraft:item,tag=Party_display,scores={particle_Party=12}] at @s run summon minecraft:item ~ ~0.8 ~ {Item:{id:"minecraft:red_wool",count:1},Motion:[-0.025d,0.4d,-0.025d],Tags:["Party_popper_item","nopickup"],Age:-32768,PickupDelay:32767}
 execute as @e[type=!minecraft:item,tag=Party_display,scores={particle_Party=5}] at @s run summon minecraft:item ~ ~0.8 ~ {Item:{id:"minecraft:black_wool",count:1},Motion:[-0.0375d,0.4d,-0.0125d],Tags:["Party_popper_item","nopickup"],Age:-32768,PickupDelay:32767}
-return 1

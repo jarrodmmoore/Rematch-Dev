@@ -10,4 +10,3 @@ execute as @a[tag=target,sort=random,limit=1] at @s run function rematch:explode
 tag @a[tag=target] remove target
 
 scoreboard players reset @s dropFCoral
-return 1

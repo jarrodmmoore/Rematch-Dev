@@ -32,4 +32,3 @@ execute as @a[tag=Sizzle,scores={Hit=1..}] at @s run playsound minecraft:block.f
 execute as @a[tag=Shatter,scores={Hit=1..}] at @s run playsound minecraft:block.glass.break player @a ~ ~ ~ 1 1
 execute as @a[tag=Retro,scores={Hit=1..}] at @s run playsound minecraft:block.note_block.bit player @a ~ ~ ~ 1 1
 execute as @a[tag=Ring,scores={Hit=1..}] at @s run playsound minecraft:block.bell.use player @a ~ ~ ~ 1 1
-return 1

@@ -1,2 +1,1 @@
 tellraw @s ["",{"text":"\n\n\n","type":"text"},{"text":"[Safety Warp]","bold":true,"color":"green","type":"text"},{"text":"\n\u2b25 Utility. Drop to teleport to a random location on the map.","type":"text"}]
-return 1

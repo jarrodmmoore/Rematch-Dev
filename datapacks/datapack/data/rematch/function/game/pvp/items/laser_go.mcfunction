@@ -17,4 +17,3 @@ tag @e[tag=hit] remove hit
 tag @e[tag=immalaser] remove immalaser
 
 kill @s
-return 1

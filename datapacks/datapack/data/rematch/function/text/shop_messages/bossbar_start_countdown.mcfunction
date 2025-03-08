@@ -5,4 +5,3 @@ execute if entity @e[scores={gameTime=..0},name=Global,type=armor_stand,x=0,y=50
 
 bossbar set minecraft:menutimer color blue
 bossbar set minecraft:menutimer style notched_10
-return 1

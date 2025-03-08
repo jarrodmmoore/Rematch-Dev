@@ -14,4 +14,3 @@ item replace entity @s armor.legs with minecraft:air
 item replace entity @s armor.feet with minecraft:air
 
 function rematch:text/pvp/player_eliminated
-return 1

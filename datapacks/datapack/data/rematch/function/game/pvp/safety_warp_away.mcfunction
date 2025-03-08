@@ -14,4 +14,3 @@ execute unless entity @e[distance=..400,tag=playerSpawn,tag=!dontspawnhere] run 
 
 tag @e[tag=dontspawnhere] remove dontspawnhere
 tag @s remove self
-return 1

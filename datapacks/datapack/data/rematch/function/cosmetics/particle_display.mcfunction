@@ -80,4 +80,3 @@ execute if entity @e[tag=particle_selector,scores={particle_score=33}] run score
 execute if entity @e[tag=particle_selector,scores={particle_score=-2}] run scoreboard players set @e[tag=particle_selector] particle_score 31
 execute if entity @e[tag=particle_selector,scores={particle_score=0}] run scoreboard players set @e[tag=particle_selector] particle_score 1
 execute if entity @e[tag=particle_selector,scores={particle_score=2}] run scoreboard players set @e[tag=particle_selector] particle_score 3
-return 1

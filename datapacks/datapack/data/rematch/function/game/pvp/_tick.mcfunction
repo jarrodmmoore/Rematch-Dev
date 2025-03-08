@@ -10,5 +10,3 @@ execute if entity @e[scores={gameTime=..0},name=Global,type=armor_stand,x=0,y=50
 execute if entity @e[scores={gameTime=1..205},name=Global,type=armor_stand,x=0,y=50,z=49,dx=1,dy=1,dz=1] run function rematch:game/pvp/startup_sequence
 execute if entity @e[scores={gameTime=181..99999},name=Global,type=armor_stand,x=0,y=50,z=49,dx=1,dy=1,dz=1] run function rematch:game/pvp/_main_logic
 execute if entity @e[scores={gameTime=100000..},name=Global,type=armor_stand,x=0,y=50,z=49,dx=1,dy=1,dz=1] run function rematch:game/pvp/end_sequence
-
-return 1

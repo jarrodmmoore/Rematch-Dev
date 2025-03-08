@@ -1,2 +1,1 @@
 title @a actionbar ["",{"text":"Please wait one moment...","bold":true,"color":"gold","type":"text"}]
-return 1

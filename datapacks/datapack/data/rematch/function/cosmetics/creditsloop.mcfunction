@@ -1,8 +1,8 @@
 execute as @e[tag=JayjoStick] at @s run particle minecraft:mycelium ~0.3 ~0.9 ~-0.5 0.3 0.1 0.3 0.5 1 normal @a
 execute as @e[tag=Jayjo_] at @s run particle minecraft:mycelium ~-0.1 ~0.7 ~-0.5 0 0 0 0 1 normal @a
 
-execute as @e[tag=FilmsCraft1] at @s run function help:f94364ecbafb0aabbe2ecef1b5609f883e201234e63b69901d2cf209ca4bea06
-execute as @e[tag=FilmsChest1] at @s run function help:cb9bc967a29c9c2b35788781c0c1ba2519260236f4de260f020e236f48de1086
+execute as @e[tag=FilmsCraft1] at @s run rotate @s ~-4 ~
+execute as @e[tag=FilmsChest1] at @s run rotate @s ~5 ~
 execute as @e[tag=FilmsCraft1] at @s run particle minecraft:mycelium ~ ~0.6 ~ 0.1 0.1 0.1 0 5 normal @a
 execute as @e[tag=FilmsChest1] at @s run particle minecraft:mycelium ~ ~0.6 ~ 0.1 0.1 0.1 0 5 normal @a
 
@@ -55,34 +55,34 @@ scoreboard players set @e[tag=MCFilms,scores={FilmsWave=20}] FilmsWave 0
 
 scoreboard players add @e[tag=FlamingosaurusHorse] FilmsWave 1
 data merge entity @e[tag=FlamingosaurusHorse,limit=1] {Age:-25000}
-execute as @e[tag=FlamingosaurusHorse,scores={FilmsWave=1}] at @s run function help:b441771d44606cd5aab6c045c3c89a7de4f3035bfca83d0e1de48601687bb851
-execute as @e[tag=FlamingosaurusHorse,scores={FilmsWave=2}] at @s run function help:b441771d44606cd5aab6c045c3c89a7de4f3035bfca83d0e1de48601687bb851
-execute as @e[tag=FlamingosaurusHorse,scores={FilmsWave=3}] at @s run function help:b441771d44606cd5aab6c045c3c89a7de4f3035bfca83d0e1de48601687bb851
-execute as @e[tag=FlamingosaurusHorse,scores={FilmsWave=4}] at @s run function help:528d5e6ea2f77e9d40cffba79b4d7b7d968c309971b27690f405dc641a10b0fe
-execute as @e[tag=FlamingosaurusHorse,scores={FilmsWave=5}] at @s run function help:528d5e6ea2f77e9d40cffba79b4d7b7d968c309971b27690f405dc641a10b0fe
-execute as @e[tag=FlamingosaurusHorse,scores={FilmsWave=6}] at @s run function help:528d5e6ea2f77e9d40cffba79b4d7b7d968c309971b27690f405dc641a10b0fe
-execute as @e[tag=FlamingosaurusHorse,scores={FilmsWave=7}] at @s run function help:528d5e6ea2f77e9d40cffba79b4d7b7d968c309971b27690f405dc641a10b0fe
-execute as @e[tag=FlamingosaurusHorse,scores={FilmsWave=8}] at @s run function help:528d5e6ea2f77e9d40cffba79b4d7b7d968c309971b27690f405dc641a10b0fe
-execute as @e[tag=FlamingosaurusHorse,scores={FilmsWave=9}] at @s run function help:b441771d44606cd5aab6c045c3c89a7de4f3035bfca83d0e1de48601687bb851
-execute as @e[tag=FlamingosaurusHorse,scores={FilmsWave=10}] at @s run function help:b441771d44606cd5aab6c045c3c89a7de4f3035bfca83d0e1de48601687bb851
-execute as @e[tag=FlamingosaurusHorse,scores={FilmsWave=11}] at @s run function help:b441771d44606cd5aab6c045c3c89a7de4f3035bfca83d0e1de48601687bb851
-execute as @e[tag=FlamingosaurusHorse,scores={FilmsWave=12}] at @s run function help:9434173352d908a1dddddbb2b108582f21cd249b67832f64227714b8889f61a0
-execute as @e[tag=FlamingosaurusHorse,scores={FilmsWave=13}] at @s run function help:9434173352d908a1dddddbb2b108582f21cd249b67832f64227714b8889f61a0
-execute as @e[tag=FlamingosaurusHorse,scores={FilmsWave=14}] at @s run function help:9434173352d908a1dddddbb2b108582f21cd249b67832f64227714b8889f61a0
-execute as @e[tag=FlamingosaurusHorse,scores={FilmsWave=15}] at @s run function help:a0efb3e53ca492b02c4a0e3e4844fc943adfef5834f2322bb2e155c4562eddb6
-execute as @e[tag=FlamingosaurusHorse,scores={FilmsWave=16}] at @s run function help:a0efb3e53ca492b02c4a0e3e4844fc943adfef5834f2322bb2e155c4562eddb6
-execute as @e[tag=FlamingosaurusHorse,scores={FilmsWave=17}] at @s run function help:a0efb3e53ca492b02c4a0e3e4844fc943adfef5834f2322bb2e155c4562eddb6
-execute as @e[tag=FlamingosaurusHorse,scores={FilmsWave=18}] at @s run function help:3fa7dad2bb2e160000022e910076070432b6e3d3a9729ca616db6cfac1848af9
-execute as @e[tag=FlamingosaurusHorse,scores={FilmsWave=19}] at @s run function help:3fa7dad2bb2e160000022e910076070432b6e3d3a9729ca616db6cfac1848af9
-execute as @e[tag=FlamingosaurusHorse,scores={FilmsWave=20}] at @s run function help:3fa7dad2bb2e160000022e910076070432b6e3d3a9729ca616db6cfac1848af9
-execute as @e[tag=FlamingosaurusHorse,scores={FilmsWave=21}] at @s run function help:3fa7dad2bb2e160000022e910076070432b6e3d3a9729ca616db6cfac1848af9
-execute as @e[tag=FlamingosaurusHorse,scores={FilmsWave=22}] at @s run function help:3fa7dad2bb2e160000022e910076070432b6e3d3a9729ca616db6cfac1848af9
-execute as @e[tag=FlamingosaurusHorse,scores={FilmsWave=23}] at @s run function help:a0efb3e53ca492b02c4a0e3e4844fc943adfef5834f2322bb2e155c4562eddb6
-execute as @e[tag=FlamingosaurusHorse,scores={FilmsWave=24}] at @s run function help:a0efb3e53ca492b02c4a0e3e4844fc943adfef5834f2322bb2e155c4562eddb6
-execute as @e[tag=FlamingosaurusHorse,scores={FilmsWave=25}] at @s run function help:a0efb3e53ca492b02c4a0e3e4844fc943adfef5834f2322bb2e155c4562eddb6
-execute as @e[tag=FlamingosaurusHorse,scores={FilmsWave=26}] at @s run function help:9434173352d908a1dddddbb2b108582f21cd249b67832f64227714b8889f61a0
-execute as @e[tag=FlamingosaurusHorse,scores={FilmsWave=27}] at @s run function help:9434173352d908a1dddddbb2b108582f21cd249b67832f64227714b8889f61a0
-execute as @e[tag=FlamingosaurusHorse,scores={FilmsWave=28}] at @s run function help:9434173352d908a1dddddbb2b108582f21cd249b67832f64227714b8889f61a0
+execute as @e[tag=FlamingosaurusHorse,scores={FilmsWave=1}] at @s run rotate @s ~ ~-1
+execute as @e[tag=FlamingosaurusHorse,scores={FilmsWave=2}] at @s run rotate @s ~ ~-1
+execute as @e[tag=FlamingosaurusHorse,scores={FilmsWave=3}] at @s run rotate @s ~ ~-1
+execute as @e[tag=FlamingosaurusHorse,scores={FilmsWave=4}] at @s run rotate @s ~ ~-2
+execute as @e[tag=FlamingosaurusHorse,scores={FilmsWave=5}] at @s run rotate @s ~ ~-2
+execute as @e[tag=FlamingosaurusHorse,scores={FilmsWave=6}] at @s run rotate @s ~ ~-2
+execute as @e[tag=FlamingosaurusHorse,scores={FilmsWave=7}] at @s run rotate @s ~ ~-2
+execute as @e[tag=FlamingosaurusHorse,scores={FilmsWave=8}] at @s run rotate @s ~ ~-2
+execute as @e[tag=FlamingosaurusHorse,scores={FilmsWave=9}] at @s run rotate @s ~ ~-1
+execute as @e[tag=FlamingosaurusHorse,scores={FilmsWave=10}] at @s run rotate @s ~ ~-1
+execute as @e[tag=FlamingosaurusHorse,scores={FilmsWave=11}] at @s run rotate @s ~ ~-1
+execute as @e[tag=FlamingosaurusHorse,scores={FilmsWave=12}] at @s run rotate @s ~ ~
+execute as @e[tag=FlamingosaurusHorse,scores={FilmsWave=13}] at @s run rotate @s ~ ~
+execute as @e[tag=FlamingosaurusHorse,scores={FilmsWave=14}] at @s run rotate @s ~ ~
+execute as @e[tag=FlamingosaurusHorse,scores={FilmsWave=15}] at @s run rotate @s ~ ~1
+execute as @e[tag=FlamingosaurusHorse,scores={FilmsWave=16}] at @s run rotate @s ~ ~1
+execute as @e[tag=FlamingosaurusHorse,scores={FilmsWave=17}] at @s run rotate @s ~ ~1
+execute as @e[tag=FlamingosaurusHorse,scores={FilmsWave=18}] at @s run rotate @s ~ ~2
+execute as @e[tag=FlamingosaurusHorse,scores={FilmsWave=19}] at @s run rotate @s ~ ~2
+execute as @e[tag=FlamingosaurusHorse,scores={FilmsWave=20}] at @s run rotate @s ~ ~2
+execute as @e[tag=FlamingosaurusHorse,scores={FilmsWave=21}] at @s run rotate @s ~ ~2
+execute as @e[tag=FlamingosaurusHorse,scores={FilmsWave=22}] at @s run rotate @s ~ ~2
+execute as @e[tag=FlamingosaurusHorse,scores={FilmsWave=23}] at @s run rotate @s ~ ~1
+execute as @e[tag=FlamingosaurusHorse,scores={FilmsWave=24}] at @s run rotate @s ~ ~1
+execute as @e[tag=FlamingosaurusHorse,scores={FilmsWave=25}] at @s run rotate @s ~ ~1
+execute as @e[tag=FlamingosaurusHorse,scores={FilmsWave=26}] at @s run rotate @s ~ ~
+execute as @e[tag=FlamingosaurusHorse,scores={FilmsWave=27}] at @s run rotate @s ~ ~
+execute as @e[tag=FlamingosaurusHorse,scores={FilmsWave=28}] at @s run rotate @s ~ ~
 scoreboard players set @e[tag=FlamingosaurusHorse,scores={FilmsWave=28}] FilmsWave 0
 
 scoreboard players add @e[tag=Flamingosaurus] FilmsWave 1
@@ -157,4 +157,3 @@ data merge entity @e[tag=Falcinspire,scores={FilmsWave=25},limit=1] {Pose:{Head:
 scoreboard players set @e[tag=Falcinspire,scores={FilmsWave=25}] FilmsWave 0
 
 execute as @e[tag=test_credit] at @s run particle minecraft:enchant ~ ~2 ~ 0.125 0.15 0.125 0 1 normal @a
-return 1

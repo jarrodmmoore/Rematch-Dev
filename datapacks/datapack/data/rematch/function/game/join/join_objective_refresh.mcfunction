@@ -10,4 +10,3 @@ scoreboard objectives add join minecraft.custom:minecraft.leave_game
 scoreboard players set @a[tag=validJoinedPlayer] join 100
 
 tag @a[tag=validJoinedPlayer] remove validJoinedPlayer
-return 1

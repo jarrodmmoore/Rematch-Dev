@@ -10,4 +10,3 @@ execute if entity @s[scores={sinkHole=101..398}] at @s unless block ~ ~ ~ #remat
 execute if entity @s[scores={sinkHole=101..398}] at @s if block ~ ~ ~ #rematch:missile_do_not_explode run scoreboard players set @s sinkHole 400
 execute if entity @s[scores={sinkHole=399}] at @s unless block ~ ~ ~ #rematch:missile_do_not_explode run function rematch:game/pvp/respawn_main
 execute if entity @s[scores={sinkHole=560..}] at @s if block ~ ~ ~ #rematch:missile_do_not_explode run scoreboard players reset @s sinkHole
-return 1

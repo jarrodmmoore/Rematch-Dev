@@ -111,4 +111,3 @@ setblock 1329 69 1412 minecraft:structure_block
 data merge block 1329 69 1412 {mode:"LOAD",name:"trees19"}
 setblock 1329 68 1412 minecraft:redstone_block
 setblock 1329 69 1412 minecraft:dirt
-return 1

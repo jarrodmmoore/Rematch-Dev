@@ -5,4 +5,3 @@ execute if entity @s[scores={math=1..}] at @s positioned ~ ~-.2 ~ run function r
 execute if entity @s[scores={math=..-1}] at @s run function rematch:damage_indicators/hurt/index
 
 scoreboard players operation @s hpDummy = @s hp
-return 1

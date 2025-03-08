@@ -15,4 +15,3 @@ function rematch:cosmetics/particles/pheonix_display
 function rematch:cosmetics/particles/snowstep
 function rematch:cosmetics/particles/brewing
 function rematch:cosmetics/particles/green_step
-return 1

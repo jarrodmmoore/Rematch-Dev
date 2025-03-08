@@ -43,4 +43,3 @@ clear @s minecraft:chest
 scoreboard players reset @s randomSelect
 
 scoreboard players operation @e[tag=currencystand] math += @s playerID
-return 1

@@ -19,4 +19,3 @@ item replace entity @s[tag=!requestBlueTeam,team=!spectators] inventory.16 with 
 # sample character and nbt stuff...
 # ✔
 # item replace entity @s[tag=forcespectate] inventory.10 with light_blue_wool{Tags:["invControl","invPlay"],HideFlags:1,display:{Name:"[\"\",{\"text\":\"Play\",\"color\":\"aqua\",\"bold\":\"true\",\"italic\":\"false\"}]",Lore:["{\"text\":\"Click me!\",\"color\":\"yellow\"}"]}}
-return 1

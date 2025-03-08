@@ -12,4 +12,3 @@ scoreboard players add @e[name=Global,type=armor_stand,x=0,y=50,z=49,dx=1,dy=1,d
 execute store result bossbar minecraft:readyprogress max run scoreboard players get @e[limit=1,name=Global,type=armor_stand,x=0,y=50,z=49,dx=1,dy=1,dz=1] readyRequired
 execute store result bossbar minecraft:readyprogress value run scoreboard players get @e[limit=1,name=Global,type=armor_stand,x=0,y=50,z=49,dx=1,dy=1,dz=1] readyCount
 function rematch:text/start/bossbar_ready_up
-return 1

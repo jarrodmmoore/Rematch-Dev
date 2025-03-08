@@ -1,2 +1,1 @@
 tellraw @s ["",{"text":"\n\n","type":"text"},{"text":"[Damage I Potion]","bold":true,"color":"dark_purple","type":"text"},{"text":"\n\u2b25 Ranged item. Applies a weak amount of instant damage to\nhit players.","type":"text"}]
-return 1

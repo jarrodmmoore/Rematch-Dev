@@ -11,4 +11,3 @@ playsound minecraft:block.beacon.activate master @a ~ ~ ~ 1 1.7
 particle minecraft:dust{color:[1.0f,0.2f,0.2f],scale:2.0f} ^ ^1.5 ^.5 0.35 0.35 0.35 .01 10
 
 scoreboard players reset @s dropRedGlass
-return 1

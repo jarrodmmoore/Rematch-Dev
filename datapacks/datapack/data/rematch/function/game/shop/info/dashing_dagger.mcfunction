@@ -1,2 +1,1 @@
 tellraw @s ["",{"text":"\n\n","type":"text"},{"text":"[Dashing Dagger]","bold":true,"color":"yellow","type":"text"},{"text":"\n\u2b25 Melee weapon. When held, increases the user's movement\nspeed.","type":"text"}]
-return 1

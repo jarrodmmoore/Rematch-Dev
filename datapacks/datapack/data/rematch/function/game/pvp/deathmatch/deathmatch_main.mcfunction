@@ -12,4 +12,3 @@ execute if entity @e[scores={timeRemaining=0},name=Global,type=armor_stand,x=0,y
 execute if entity @e[scores={timeRemaining=-2600},name=Global,type=armor_stand,x=0,y=50,z=49,dx=1,dy=1,dz=1] run function rematch:text/pvp/fight_or_get_snapped
 execute if entity @e[scores={timeRemaining=..-3000,gameTime=..99999},name=Global,type=armor_stand,x=0,y=50,z=49,dx=1,dy=1,dz=1] run kill @a[gamemode=adventure,limit=1]
 scoreboard players set @e[scores={timeRemaining=..-3000},name=Global,type=armor_stand,x=0,y=50,z=49,dx=1,dy=1,dz=1] timeRemaining -2800
-return 1

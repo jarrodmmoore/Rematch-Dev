@@ -1,2 +1,1 @@
 tellraw @s ["",{"text":"\n\n","type":"text"},{"text":"[Totem of Undying]","bold":true,"color":"yellow","type":"text"},{"text":"\n\u2b25 Utility. Restores a small amount of health before losing a life if held by user's hand.","type":"text"}]
-return 1

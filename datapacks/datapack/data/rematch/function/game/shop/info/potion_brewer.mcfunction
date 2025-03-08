@@ -1,2 +1,1 @@
 tellraw @s ["",{"text":"\n\n","type":"text"},{"text":"[Potion Brewer]","bold":true,"color":"dark_purple","type":"text"},{"text":"\n\u2b25 Utility. Gives a random potion to the user every\n30 seconds.","type":"text"}]
-return 1

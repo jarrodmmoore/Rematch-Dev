@@ -33,4 +33,3 @@ execute as @e[tag=ke_frost,scores={ke_kill=1}] at @s run summon minecraft:firewo
 execute as @e[tag=ke_nature,scores={ke_kill=1}] at @s run summon minecraft:firework_rocket ~ ~1 ~ {LifeTime:20,FireworksItem:{id:"minecraft:firework_rocket",components:{"minecraft:fireworks":{explosions:[{shape:"burst",colors:[I;3887386,5320730],fade_colors:[I;5320730],has_trail:1b,has_twinkle:0b}],flight_duration:1b}},count:1}}
 execute as @e[tag=ke_silver,scores={ke_kill=1}] at @s run summon minecraft:firework_rocket ~ ~1 ~ {LifeTime:20,FireworksItem:{id:"minecraft:firework_rocket",components:{"minecraft:fireworks":{explosions:[{shape:"burst",colors:[I;11250603,4408131],fade_colors:[I;11250603,4408131],has_trail:1b,has_twinkle:0b}],flight_duration:1b}},count:1}}
 scoreboard players set @a[scores={ke_kill=1}] ke_kill 0
-return 1

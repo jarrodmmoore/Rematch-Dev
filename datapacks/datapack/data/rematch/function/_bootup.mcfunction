@@ -2,4 +2,3 @@
 gamerule keepInventory true
 gamerule mobGriefing false
 difficulty normal
-return 1

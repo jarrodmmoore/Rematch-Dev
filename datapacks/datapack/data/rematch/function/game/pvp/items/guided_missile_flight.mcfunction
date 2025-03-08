@@ -5,9 +5,9 @@ execute as @a[gamemode=adventure] run scoreboard players operation @s math -= @e
 tag @a[gamemode=adventure,scores={math=0},sort=nearest,limit=1] add parent
 
 #moves towards nearest player
-execute if entity @s[tag=!reditem,tag=!blueitem] at @s facing entity @a[tag=!parent,sort=nearest,limit=1,team=!spectators] feet run function help:9434173352d908a1dddddbb2b108582f21cd249b67832f64227714b8889f61a0
-execute if entity @s[tag=reditem] facing entity @a[tag=!parent,sort=nearest,limit=1,team=blueplayers] feet run function help:9434173352d908a1dddddbb2b108582f21cd249b67832f64227714b8889f61a0
-execute if entity @s[tag=blueitem] facing entity @a[tag=!parent,sort=nearest,limit=1,team=redplayers] feet run function help:9434173352d908a1dddddbb2b108582f21cd249b67832f64227714b8889f61a0
+execute if entity @s[tag=!reditem,tag=!blueitem] at @s facing entity @a[tag=!parent,sort=nearest,limit=1,team=!spectators] feet run rotate @s ~ ~
+execute if entity @s[tag=reditem] facing entity @a[tag=!parent,sort=nearest,limit=1,team=blueplayers] feet run rotate @s ~ ~
+execute if entity @s[tag=blueitem] facing entity @a[tag=!parent,sort=nearest,limit=1,team=redplayers] feet run rotate @s ~ ~
 tp @s ^ ^ ^0.4
 
 particle minecraft:large_smoke ~ ~1.7 ~ 0.1 0.1 0.1 0 1 force
@@ -28,4 +28,3 @@ execute if entity @s[scores={age=300..}] run function rematch:game/pvp/items/mis
 
 tag @a[tag=parent] remove parent
 tag @s remove imamissile
-return 1

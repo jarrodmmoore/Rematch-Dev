@@ -8,4 +8,3 @@ tag @s remove requestBlueTeam
 clear @s minecraft:red_dye[minecraft:custom_data~{Tags:["invControl"]}]
 clear @s minecraft:blue_dye[minecraft:custom_data~{Tags:["invControl"]}]
 clear @s minecraft:light_gray_dye[minecraft:custom_data~{Tags:["invControl"]}]
-return 1

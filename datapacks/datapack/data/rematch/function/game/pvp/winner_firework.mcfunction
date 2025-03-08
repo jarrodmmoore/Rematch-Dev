@@ -10,4 +10,3 @@ execute if entity @s[scores={math=3}] run summon minecraft:firework_rocket ~ ~ ~
 execute if entity @s[scores={math=4}] run summon minecraft:firework_rocket ~ ~ ~ {LifeTime:20,Motion:[0.0d,1.1d,0.0d],FireworksItem:{id:"minecraft:firework_rocket",components:{"minecraft:fireworks":{explosions:[{shape:"creeper",colors:[I;1376075],has_trail:1b}]}},count:1}}
 
 execute if entity @s[scores={math=5}] run summon minecraft:firework_rocket ~ ~ ~ {LifeTime:20,Motion:[0.0d,0.5d,0.0d],FireworksItem:{id:"minecraft:firework_rocket",components:{"minecraft:fireworks":{explosions:[{shape:"burst",colors:[I;16711680,15662848,261899],fade_colors:[I;16749051],has_trail:1b,has_twinkle:1b}]}},count:1}}
-return 1

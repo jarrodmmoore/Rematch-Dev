@@ -13,4 +13,3 @@ execute if entity @s[tag=!hasCarrot,tag=!noInventory] unless entity @s[nbt={Inve
 
 #input cooldown
 scoreboard players remove @s[scores={inputCooldown=1..}] inputCooldown 1
-return 1

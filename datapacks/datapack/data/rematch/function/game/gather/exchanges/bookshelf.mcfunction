@@ -11,4 +11,3 @@ function rematch:game/gather/currency_playsound
 scoreboard players reset @s mine_bookshelves
 
 scoreboard players operation @e[tag=currencystand] math += @s playerID
-return 1

@@ -3,4 +3,3 @@ bossbar set minecraft:menutimer name ["",{"text":"Vote for an arena! [","color":
 
 bossbar set minecraft:menutimer color yellow
 bossbar set minecraft:menutimer style notched_10
-return 1

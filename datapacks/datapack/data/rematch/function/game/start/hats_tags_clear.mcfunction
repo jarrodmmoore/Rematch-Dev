@@ -28,4 +28,3 @@ tag @e remove hat_globe
 tag @e remove hat_dice
 tag @e remove hat_puzzle
 tag @e remove hat_present
-return 1

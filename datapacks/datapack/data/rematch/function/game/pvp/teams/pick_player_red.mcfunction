@@ -18,4 +18,3 @@ tag @a[tag=ichooseyou] remove ichooseyou
 
 #still players that haven't been assigned? run pick_player_blue.
 execute if entity @a[tag=!teamassigned,team=!spectators] run function rematch:game/pvp/teams/pick_player_blue
-return 1

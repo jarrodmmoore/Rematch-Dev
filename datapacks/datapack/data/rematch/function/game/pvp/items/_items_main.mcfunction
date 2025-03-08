@@ -1,7 +1,7 @@
 #================================
 #ARMOR SETS
 effect give @a[nbt={Inventory:[{components:{"minecraft:custom_data":{Tags:["spyoutfit"]}},Slot:100b},{components:{"minecraft:custom_data":{Tags:["spyoutfit"]}},Slot:101b},{components:{"minecraft:custom_data":{Tags:["spyoutfit"]}},Slot:102b}]}] minecraft:speed 1 0 true
-function help:d6d723687cf8b4f6b82e34dee85489ae1b989f0675e919a9c48c643ea72c3066
+effect give @a[nbt={Inventory:[{components:{"minecraft:custom_data":{Tags:["frogoutfit"]}},Slot:100b},{components:{"minecraft:custom_data":{Tags:["frogoutfit"]}},Slot:101b},{components:{"minecraft:custom_data":{Tags:["frogoutfit"]}},Slot:102b}]}] minecraft:jump_boost 1 1 true
 effect give @a[nbt={Inventory:[{components:{"minecraft:custom_data":{Tags:["tankoutfit"]}},Slot:100b},{components:{"minecraft:custom_data":{Tags:["tankoutfit"]}},Slot:101b},{components:{"minecraft:custom_data":{Tags:["tankoutfit"]}},Slot:102b}]}] minecraft:resistance 1 1 true
 effect give @a[nbt={Inventory:[{components:{"minecraft:custom_data":{Tags:["tankoutfit"]}},Slot:100b},{components:{"minecraft:custom_data":{Tags:["tankoutfit"]}},Slot:101b},{components:{"minecraft:custom_data":{Tags:["tankoutfit"]}},Slot:102b}]}] minecraft:slowness 1 0 true
 effect give @a[nbt={Inventory:[{components:{"minecraft:custom_data":{Tags:["warrioroutfit"]}},Slot:100b},{components:{"minecraft:custom_data":{Tags:["warrioroutfit"]}},Slot:101b},{components:{"minecraft:custom_data":{Tags:["warrioroutfit"]}},Slot:102b}]}] minecraft:strength 1 0 true
@@ -132,4 +132,3 @@ execute if entity @e[type=minecraft:item,tag=!given_id] as @a at @s if entity @e
 
 #don't let players drop their items!
 execute as @e[type=minecraft:item] unless entity @s[nbt={Item:{components:{"minecraft:custom_data":{Tags:["deployonground"]}}}}] unless entity @s[nbt={Item:{components:{"minecraft:custom_data":{Tags:["droptouse"]}}}}] at @s if entity @a[gamemode=adventure,distance=..2] run data merge entity @s[type=minecraft:item] {PickupDelay:0}
-return 1

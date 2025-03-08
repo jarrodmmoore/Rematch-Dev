@@ -19,7 +19,7 @@ execute if entity @e[scores={countdown=261},name=Global,type=armor_stand,x=0,y=5
 execute if entity @e[scores={countdown=261},name=Global,type=armor_stand,x=0,y=50,z=49,dx=1,dy=1,dz=1] run fill 1355 89 1306 1359 93 1310 minecraft:black_concrete hollow
 execute if entity @e[scores={countdown=271},name=Global,type=armor_stand,x=0,y=50,z=49,dx=1,dy=1,dz=1] run function rematch:game/gather/reset
 execute if entity @e[scores={countdown=281},name=Global,type=armor_stand,x=0,y=50,z=49,dx=1,dy=1,dz=1] run fill 1355 89 1306 1359 93 1310 minecraft:air hollow
-execute if entity @e[scores={countdown=281},name=Global,type=armor_stand,x=0,y=50,z=49,dx=1,dy=1,dz=1] as @e[type=minecraft:player,team=players] run function help:796ee7b9dd00e58e2710ab7f7397ab2194710b282198729909a2d3c74a1dd783
+execute if entity @e[scores={countdown=281},name=Global,type=armor_stand,x=0,y=50,z=49,dx=1,dy=1,dz=1] as @e[type=minecraft:player,team=players] run tp @s 2023 28 2028 125 5
 execute if entity @e[scores={countdown=281},name=Global,type=armor_stand,x=0,y=50,z=49,dx=1,dy=1,dz=1] run tp @e[type=minecraft:player,team=spectators] 2019 27 2008
 #execute if entity @e[name=Global,type=armor_stand,x=0,y=50,z=49,dx=1,dy=1,dz=1,scores={countdown=300}] run function rematch:game/shop/remove_items
 #execute if entity @e[name=Global,type=armor_stand,x=0,y=50,z=49,dx=1,dy=1,dz=1,scores={countdown=320}] run function rematch:game/shop/summon_items
@@ -48,10 +48,10 @@ execute as @a[gamemode=adventure,tag=guidebook] if entity @e[scores={gameState=2
 function rematch:game/shop/bug_prevention
 
 #rotate shop models
-execute as @e[tag=shop_display] at @s run function help:ec2788977c0c29cdb319cc994542affba8eb7f23efde2887b0072046f4d6d4f1
+execute as @e[tag=shop_display] at @s run rotate @s ~-3 ~
 
 #don't let players drop their items!
-execute as @e[type=minecraft:item,tag=!shop_item_display,tag=!nopickup] at @s if entity @a[gamemode=adventure,distance=..2] run data merge entity @s[type=minecraft:item] {PickupDelay:0}
+execute as @e[type=minecraft:item,tag=!shop_item_display,tag=!nopickup] at @s run function rematch:game/shop/manage_dropped_item
 
 
 #count players
@@ -109,5 +109,3 @@ function rematch:game/shop/item_info
 #logic depending on readyState
 execute if entity @e[scores={readyState=..0},name=Global,type=armor_stand,x=0,y=50,z=49,dx=1,dy=1,dz=1] run function rematch:game/shop/_tick_not_ready
 execute if entity @e[scores={readyState=1..},name=Global,type=armor_stand,x=0,y=50,z=49,dx=1,dy=1,dz=1] run function rematch:game/shop/_tick_ready
-
-return 1

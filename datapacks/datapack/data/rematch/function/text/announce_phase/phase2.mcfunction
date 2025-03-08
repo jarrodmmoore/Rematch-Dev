@@ -5,4 +5,3 @@ tellraw @a ["",{"text":"Ready up when you're finished shopping.","type":"text"}]
 tellraw @a ["",{"text":" ","type":"text"}]
 tellraw @a[team=players] ["",{"text":"[Tip]:","bold":true,"color":"gold","type":"text"},{"text":" ","type":"text"},{"text":"DO NOT","underlined":true,"color":"dark_red","type":"text"},{"text":" place items in your offhand until the next phase!","color":"yellow","type":"text"}]
 tellraw @a ["",{"text":" ","type":"text"}]
-return 1

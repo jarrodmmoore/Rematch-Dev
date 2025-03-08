@@ -27,4 +27,3 @@ clear @s[tag=!hasGDye] minecraft:light_gray_dye[minecraft:custom_data~{Tags:["in
 
 tag @s[tag=hasRWool,tag=hasGWool,tag=hasGDye,tag=hasRDye,tag=hasBDye] add hasControls
 execute if entity @s[tag=!hasControls] run function rematch:text/start/give_inventory_controls
-return 1

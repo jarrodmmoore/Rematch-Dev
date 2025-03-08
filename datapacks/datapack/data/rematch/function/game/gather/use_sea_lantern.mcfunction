@@ -4,4 +4,3 @@ tp @s @e[sort=random,limit=1,name=gatherTP]
 scoreboard players set @s inputCooldown 60
 
 function rematch:text/gather_messages/warped_to_center
-return 1

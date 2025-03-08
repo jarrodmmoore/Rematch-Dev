@@ -26,4 +26,3 @@ execute if entity @e[type=minecraft:pig,nbt={Saddle:1b}] run tag @a add pig_pres
 execute if entity @e[type=minecraft:chicken,tag=baby_chicken] run tag @a add chicken_presence
 execute if entity @e[type=minecraft:rabbit,nbt={RabbitType:99}] run tag @a add bunny_presence
 execute if entity @e[type=minecraft:sheep,nbt={potion_contents:{custom_color:6}}] run tag @a add sheep_presence
-return 1

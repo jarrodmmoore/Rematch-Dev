@@ -12,4 +12,3 @@ execute if entity @s[scores={electrocute=2}] if entity @s[scores={electrocute=2}
 
 #1sec reapply cooldown
 scoreboard players reset @s[scores={electrocute=20..}] electrocute
-return 1

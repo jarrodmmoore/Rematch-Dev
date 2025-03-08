@@ -17,4 +17,3 @@ execute if entity @e[tag=we_selector,scores={we_score=0}] run scoreboard players
 
 #stop win effect item frame from dropping
 execute as @e[type=minecraft:armor_stand,tag=we_selector] at @s run kill @e[type=minecraft:item,distance=..5]
-return 1

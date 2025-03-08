@@ -19,4 +19,3 @@ tag @a[tag=target] remove target
 tag @s remove self
 
 scoreboard players reset @s dropVines
-return 1

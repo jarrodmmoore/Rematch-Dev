@@ -1,2 +1,1 @@
 tellraw @s ["",{"text":"\n","type":"text"},{"text":"[Safe Shot]","bold":true,"color":"dark_red","type":"text"},{"text":"\n\u2b25 Ranged item. Drop to create an explosion at a random\nplayer. However, there is a chance it may affect the user\nas well. Ironic.","type":"text"}]
-return 1

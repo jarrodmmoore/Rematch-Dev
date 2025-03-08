@@ -4,4 +4,3 @@ execute as @e[tag=Green_Step,tag=!playernoparticle,scores={math=1}] at @s run pa
 execute as @e[tag=Green_Step,tag=!playernoparticle,scores={math=2}] at @s run particle minecraft:happy_villager ~ ~ ~ 0.100 0.000 0.100 1 0 normal @a
 execute as @e[tag=Green_Step,tag=!playernoparticle,scores={math=3}] at @s run particle minecraft:totem_of_undying ~ ~ ~ 0.100 0.000 0.100 1 0 normal @a
 execute as @e[tag=Green_Step,tag=!playernoparticle,scores={math=4}] at @s run particle minecraft:item_slime ~ ~ ~ 0.100 0.000 0.100 1 0 normal @a
-return 1

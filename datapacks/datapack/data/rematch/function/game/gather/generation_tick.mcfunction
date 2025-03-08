@@ -28,4 +28,3 @@ execute if entity @e[scores={countdown=61},name=Global,type=armor_stand,x=0,y=50
 execute if entity @e[scores={countdown=71},name=Global,type=armor_stand,x=0,y=50,z=49,dx=1,dy=1,dz=1] at @r[team=players] run function rematch:game/gather/reset_center
 #execute if entity @e[name=Global,type=armor_stand,x=0,y=50,z=49,dx=1,dy=1,dz=1,scores={countdown=71}] run function rematch:game/gather/generate
 execute if entity @e[scores={countdown=71},name=Global,type=armor_stand,x=0,y=50,z=49,dx=1,dy=1,dz=1] at @r[team=players] run function rematch:game/gather/generate_center
-return 1

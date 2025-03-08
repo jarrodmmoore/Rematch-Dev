@@ -12,4 +12,3 @@ execute if entity @s[tag=reditem] run tag @e[tag=setme] add reditem
 execute if entity @s[tag=blueitem] run tag @e[tag=setme] add blueitem
 
 tag @e[tag=setme] remove setme
-return 1

@@ -25,5 +25,3 @@ kill @e[type=minecraft:item,nbt={Item:{components:{"minecraft:custom_name":'"Los
 
 
 
-
-return 1

@@ -14,4 +14,3 @@ tag @e[tag=pickrandomteam] remove pickrandomteam
 
 execute if entity @e[scores={math=1..},name=Global,type=armor_stand,x=0,y=50,z=49,dx=1,dy=1,dz=1] run function rematch:game/pvp/teams/pick_player_red
 execute if entity @e[scores={math=..0},name=Global,type=armor_stand,x=0,y=50,z=49,dx=1,dy=1,dz=1] run function rematch:game/pvp/teams/pick_player_blue
-return 1

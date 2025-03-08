@@ -7,4 +7,3 @@ execute if entity @s[scores={math=3}] at @s run summon minecraft:tropical_fish ~
 execute if entity @s[scores={math=4}] at @s run summon minecraft:salmon ~ ~2.5 ~ {NoGravity:1b,Motion:[0.0d,0.1d,0.0d],Tags:["we_f_fish"]}
 
 scoreboard players reset @s math
-return 1

@@ -18,4 +18,3 @@ tag @a remove pig_presence
 scoreboard players reset @s kill_pigs
 
 scoreboard players operation @e[tag=currencystand] math += @s playerID
-return 1

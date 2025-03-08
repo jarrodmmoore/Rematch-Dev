@@ -8,4 +8,3 @@ scoreboard players operation @e[tag=setme] playerSpawn = @s playerSpawn
 tag @e[tag=setme] remove setme
 
 scoreboard players add @s playerSpawn 1
-return 1

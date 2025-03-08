@@ -27,4 +27,3 @@ tag @e[tag=setme] add vote3
 tag @e[tag=setme] remove setme
 
 #SNUDDER MADO
-return 1

@@ -12,4 +12,3 @@ execute as @e[tag=Parkour_Hard,scores={Parkour_Hard=0}] at @s run setblock ~ ~2 
 execute as @e[tag=Parkour_Hard,scores={Parkour_Hard=1}] at @s run particle minecraft:dust{color:[0.9f,0.0f,0.0f],scale:1.0f} ~ ~1.8 ~ 0.5 0.5 0.5 1 15 normal @a
 execute as @e[tag=Parkour_Hard,scores={Parkour_Hard_V=1}] at @s run particle minecraft:dust{color:[0.9f,0.0f,0.0f],scale:1.0f} ~ ~1.8 ~ 0.5 0.5 0.5 1 3 normal @a
 execute as @e[tag=Parkour_Hard,scores={Parkour_Hard=1}] at @s run playsound minecraft:block.stone.break player @a ~ ~1.8 ~ 1 1
-return 1

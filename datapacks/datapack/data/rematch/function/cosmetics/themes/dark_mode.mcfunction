@@ -28,4 +28,3 @@ setblock -26 64 32 minecraft:soul_campfire
 setblock 43 60 -12 minecraft:soul_campfire
 time set night
 data merge block 35 83 0 {front_text:{messages:['{"text":"","clickEvent":{"action":"run_command","value":"/execute at @a run playsound minecraft:block.fire.extinguish master @s ~ ~ ~ 1 1"},"type":"text"}','{"text":"Switch to","clickEvent":{"action":"run_command","value":"/function rematch:cosmetics/themes/light_mode"},"italic":true,"type":"text"}','{"text":"Light Mode","bold":true,"underlined":true,"type":"text"}','""']}}
-return 1

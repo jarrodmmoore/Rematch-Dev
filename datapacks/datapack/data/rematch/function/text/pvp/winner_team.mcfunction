@@ -7,4 +7,3 @@ tellraw @a ["",{"text":" ","color":"red","type":"text"}]
 
 execute if entity @a[tag=winner] as @a at @s run playsound minecraft:ui.toast.challenge_complete master @s ~ 100000 ~ 100000
 execute unless entity @a[tag=winner] as @a at @s run playsound minecraft:entity.player.burp master @s ~ 100000 ~ 100000 .7
-return 1

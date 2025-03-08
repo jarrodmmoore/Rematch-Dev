@@ -5,4 +5,3 @@ execute if entity @s[scores={arenaID=4}] run function rematch:game/pvp/arenas/gr
 execute if entity @s[scores={arenaID=5}] run function rematch:game/pvp/arenas/jungle/tp
 execute if entity @s[scores={arenaID=6}] run function rematch:game/pvp/arenas/snowy/tp
 execute if entity @s[scores={arenaID=7}] run function rematch:game/pvp/arenas/swamp/tp
-return 1

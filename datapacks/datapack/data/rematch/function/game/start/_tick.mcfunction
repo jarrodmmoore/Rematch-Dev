@@ -7,7 +7,7 @@ team join spectator @a[tag=afk,team=!spectator]
 effect give @a[scores={hp=..19}] minecraft:instant_health 1 10 true
 
 #keep players at spawn
-execute as @a[x=-10,y=56,z=15,distance=90..] run function help:e3c77337313e42a21ac2b7f8e75285f4ce7d3c30b2c7a83e57afd9f8a89cd7d0
+execute as @a[x=-10,y=56,z=15,distance=90..] run tp @s 1 51 50 118 8
 
 #trigger tutorial text
 function rematch:game/start/tutorial_triggers/listen
@@ -91,4 +91,3 @@ kill @e[type=minecraft:item,nbt={Item:{components:{"minecraft:custom_data":{Tags
 execute if entity @a[tag=admin] positioned -9 50 34 as @a[distance=..7,tag=!admin] run tellraw @s {"text":"Hey! No touching settings!","color":"red","type":"text"}
 execute if entity @a[tag=admin] positioned -9 50 34 as @a[distance=..7,tag=!admin] at @s run playsound minecraft:entity.item.break master @s
 execute if entity @a[tag=admin] positioned -9 50 34 as @a[distance=..7,tag=!admin] facing entity @s feet rotated ~ 0 positioned as @s run tp @s ^ ^ ^1
-return 1

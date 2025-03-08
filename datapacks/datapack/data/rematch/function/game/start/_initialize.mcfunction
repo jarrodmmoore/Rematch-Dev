@@ -12,7 +12,8 @@ clear @a minecraft:written_book
 
 #misc stuff
 stopsound @a
-function help:ac476149d96da1bb0d62bbcfbe1f2666bb0fd49f2cf83665028b317da1710321
+effect clear @a
+execute as @a run attribute @s minecraft:jump_strength base reset
 effect give @a minecraft:instant_health 1 100 true
 #gamerule naturalRegeneration true
 #function rematch:game/gather/clear_inventory
@@ -57,8 +58,8 @@ scoreboard objectives setdisplay sidebar.team.blue
 #resummon flamingo's spawn horse
 kill @e[tag=FlamingosaurusHorse]
 summon minecraft:horse 21 50 19 {OnGround:1b,NoGravity:1b,Silent:1b,Invulnerable:1b,NoAI:1b,Health:100.0f,Age:-25000,Tags:["FlamingosaurusHorse"]}
-data merge entity @e[tag=FlamingosaurusHorse,limit=1] {Rotation:[30.0f,0.0f,0.0f],Pose:{Head:[0.0f,0.0f,0.0f]}}
-execute as @e[tag=FlamingosaurusHorse] at @s run function help:46dcc137dad810d2ff04982f1311256d7377d35d3f963d9bf995c42d8f1858f5
+data merge entity @e[tag=FlamingosaurusHorse,limit=1] {Rotation:[30.0f,0.0f],Pose:{Head:[0.0f,0.0f,0.0f]}}
+execute as @e[tag=FlamingosaurusHorse] at @s run rotate @s ~ ~30
 
 #clear all previous vote options
 tag @e[tag=chosenArena] remove chosenArena
@@ -83,4 +84,3 @@ scoreboard players set @e[name=Global,type=armor_stand,x=0,y=50,z=49,dx=1,dy=1,d
 function rematch:game/start/reset_player_sb
 
 #SHOOSH
-return 1

@@ -10,4 +10,3 @@ execute if entity @s[scores={math=5}] run summon minecraft:axolotl ~ ~ ~ {Silent
 particle minecraft:bubble_pop ~ ~1 ~ 0.2 0 0.2 0.05 10 normal @a
 playsound minecraft:entity.axolotl.splash master @a ~ ~ ~ 1 1
 playsound minecraft:entity.item.pickup master @a ~ ~ ~ 1 0.75
-return 1

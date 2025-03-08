@@ -27,5 +27,3 @@ execute as @e[scores={kill_bee=1..}] run function rematch:game/gather/exchanges/
 execute as @e[scores={kill_rabbits=1..}] run function rematch:game/gather/exchanges/rabbit
 execute as @e[scores={kill_sheep=1..}] run function rematch:game/gather/exchanges/sheep
 execute as @e[scores={kill_chicken=1..}] run function rematch:game/gather/exchanges/chicken
-
-return 1

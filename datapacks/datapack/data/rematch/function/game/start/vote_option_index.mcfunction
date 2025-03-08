@@ -8,4 +8,3 @@ execute if entity @s[scores={arenaID=6}] run function rematch:text/start/vote_pr
 execute if entity @s[scores={arenaID=7}] run function rematch:text/start/vote_preview_item/swamp
 
 #SAMADO
-return 1

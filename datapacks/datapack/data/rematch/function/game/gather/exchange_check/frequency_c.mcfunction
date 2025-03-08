@@ -9,4 +9,3 @@ execute as @e[scores={mine_hay=1..}] run function rematch:game/gather/exchanges/
 execute as @e[scores={mine_bookshelves=1..}] run function rematch:game/gather/exchanges/bookshelf
 
 data merge entity @e[type=minecraft:chicken,tag=baby_chicken,limit=1] {Age:-25000}
-return 1

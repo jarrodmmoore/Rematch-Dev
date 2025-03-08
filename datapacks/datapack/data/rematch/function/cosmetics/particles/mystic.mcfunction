@@ -41,4 +41,3 @@ execute as @e[tag=Mystic,tag=!playernoparticle,scores={particle_Mystic=115}] at 
 execute as @e[tag=Mystic,tag=!playernoparticle,scores={particle_Mystic=120}] at @s run particle minecraft:bubble_pop ~ ~1 ~ 0.1 0.1 0.1 0 1 normal @a
 
 scoreboard players set @e[tag=Mystic,scores={particle_Mystic=170}] particle_Mystic 0
-return 1

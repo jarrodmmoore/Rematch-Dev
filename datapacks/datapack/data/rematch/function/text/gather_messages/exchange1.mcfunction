@@ -155,4 +155,3 @@ title @a[nbt={Inventory:[{id:"minecraft:bone"}]}] actionbar ["",{"text":"[Bone]"
 title @a[nbt={Inventory:[{id:"minecraft:ink_sac"}]}] actionbar ["",{"text":"[Ink sac]","bold":true,"color":"gold","type":"text"},{"text":" [+1 coin]","color":"green","bold":true,"type":"text"}]
 
 title @a[nbt={Inventory:[{id:"minecraft:tripwire_hook"}]}] actionbar ["",{"text":"[Tripwire hook]","bold":true,"color":"gold","type":"text"},{"text":" [+1 coin]","color":"green","bold":true,"type":"text"}]
-return 1

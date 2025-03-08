@@ -21,5 +21,3 @@ execute if entity @e[scores={countdown=321},name=Global,type=armor_stand,x=0,y=5
 execute if entity @e[scores={countdown=321},name=Global,type=armor_stand,x=0,y=50,z=49,dx=1,dy=1,dz=1] run scoreboard players set @e[name=Global,type=armor_stand,x=0,y=50,z=49,dx=1,dy=1,dz=1] countdown 0
 
 
-
-return 1

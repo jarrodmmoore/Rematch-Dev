@@ -129,4 +129,3 @@ tag @e[tag=setvalue] remove setvalue
 
 #misc
 scoreboard objectives add brewParticle dummy
-return 1

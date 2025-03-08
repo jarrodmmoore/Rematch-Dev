@@ -7,4 +7,3 @@ execute if entity @s[tag=!guidebook] at @s run playsound minecraft:block.note_bl
 clear @s[tag=!guidebook] minecraft:written_book
 execute if entity @s[tag=guidebook] run tellraw @s ["",{"text":"\n","type":"text"},{"text":"\u2714","color":"dark_green","type":"text"},{"text":" Guidebook enabled","italic":true,"type":"text"},{"text":"\n ","type":"text"}]
 execute if entity @s[tag=guidebook] at @s run playsound minecraft:block.note_block.bass master @s ~ ~ ~ 1 2
-return 1

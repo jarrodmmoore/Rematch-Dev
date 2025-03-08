@@ -1,2 +1,1 @@
 tellraw @s ["",{"text":"Warped to the center of the map.","color":"aqua","type":"text"}]
-return 1

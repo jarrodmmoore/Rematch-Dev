@@ -1,2 +1,1 @@
 tellraw @s ["",{"text":"\n\n","type":"text"},{"text":"[Poison Trap]","bold":true,"color":"green","type":"text"},{"text":"\n\u2b25 Utility. Drop to create an invisible trap that applies\npoison effect.","type":"text"}]
-return 1

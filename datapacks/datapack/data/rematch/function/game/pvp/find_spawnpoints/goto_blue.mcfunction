@@ -13,4 +13,3 @@ execute unless entity @e[tag=gotome] run tag @e[distance=..400,tag=playerSpawn,s
 tp @s @e[tag=gotome,sort=nearest,limit=1]
 tag @e[tag=gotome] add spawnOccupy
 tag @e[tag=gotome] remove gotome
-return 1

@@ -37,4 +37,3 @@ kill @e[tag=purple_bee,sort=random,limit=1]
 kill @e[tag=purple_bee,sort=random,limit=1]
 kill @e[tag=purple_bee,sort=random,limit=1]
 kill @e[tag=purple_bee,sort=random,limit=1]
-return 1

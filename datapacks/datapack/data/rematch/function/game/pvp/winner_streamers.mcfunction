@@ -8,4 +8,3 @@ execute if entity @s[scores={math=4}] at @s run summon minecraft:snowball ~ ~1.8
 execute if entity @s[scores={math=5}] at @s run summon minecraft:snowball ~ ~1.8 ~ {NoGravity:1b,Invisible:1b,Motion:[0.0d,0.5d,-0.5d],Tags:["we_s_streamer"]}
 
 scoreboard players reset @s math
-return 1

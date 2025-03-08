@@ -1,2 +1,1 @@
 title @s actionbar ["",{"text":"Press ","type":"text"},{"keybind":"key.use","color":"yellow","type":"keybind"},{"text":" to toggle ready!","type":"text"}]
-return 1

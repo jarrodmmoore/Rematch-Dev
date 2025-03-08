@@ -4582,5 +4582,3 @@ setblock 1291 76 1090 minecraft:air
 setblock 1291 75 1090 minecraft:grass_block
 setblock 1291 76 1091 minecraft:air
 setblock 1291 75 1091 minecraft:grass_block
-
-return 1

@@ -29,4 +29,3 @@ execute if entity @e[scores={gameTime=140},name=Global,type=armor_stand,x=0,y=50
 execute if entity @e[scores={gameTime=160},name=Global,type=armor_stand,x=0,y=50,z=49,dx=1,dy=1,dz=1] as @a at @s run playsound minecraft:block.note_block.pling master @s ~ 100000 ~ 100000 1.05
 execute if entity @e[scores={gameTime=180},name=Global,type=armor_stand,x=0,y=50,z=49,dx=1,dy=1,dz=1] as @a at @s run playsound minecraft:entity.ender_dragon.ambient master @s ~ 100000 ~ 100000 1.1
 execute if entity @e[scores={gameTime=180},name=Global,type=armor_stand,x=0,y=50,z=49,dx=1,dy=1,dz=1] as @a at @s run playsound minecraft:entity.firework_rocket.blast master @s ~ 100000 ~ 100000 .91
-return 1

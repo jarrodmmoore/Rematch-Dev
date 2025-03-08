@@ -1,2 +1,1 @@
 tellraw @s ["",{"text":"\n\n\n","type":"text"},{"text":"[Charged Creeper]","bold":true,"color":"dark_green","type":"text"},{"text":"\n\u2b25 Utility. Summons a creeper.","type":"text"}]
-return 1

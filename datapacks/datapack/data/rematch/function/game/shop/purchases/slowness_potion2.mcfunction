@@ -10,4 +10,3 @@ execute if entity @s[tag=!reject,tag=!refund] at @s run playsound minecraft:enti
 
 execute if entity @s[tag=refund] run tag @s remove refund
 execute if entity @s[tag=reject] run tag @s remove reject
-return 1

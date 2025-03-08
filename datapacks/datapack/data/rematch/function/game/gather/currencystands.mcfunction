@@ -2,4 +2,3 @@ execute at @e[limit=1,name=Global,type=armor_stand,x=0,y=50,z=49,dx=1,dy=1,dz=1]
 execute as @e[tag=currencystand] unless entity @s[scores={playerID=2..}] run scoreboard players operation @s playerID = @e[limit=1,name=Global,type=armor_stand,x=0,y=50,z=49,dx=1,dy=1,dz=1] itemID
 scoreboard players add @e[name=Global,type=armor_stand,x=0,y=50,z=49,dx=1,dy=1,dz=1] itemID 1
 execute unless score @e[limit=1,name=Global,type=armor_stand,x=0,y=50,z=49,dx=1,dy=1,dz=1] itemID = @e[limit=1,name=Global,type=armor_stand,x=0,y=50,z=49,dx=1,dy=1,dz=1] playerID run function rematch:game/gather/currencystands
-return 1

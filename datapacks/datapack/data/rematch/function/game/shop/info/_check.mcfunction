@@ -70,4 +70,3 @@ execute if entity @e[distance=..1,tag=shop_item_display,sort=nearest,limit=1,nbt
 execute if entity @e[distance=..1,tag=shop_item_display,sort=nearest,limit=1,nbt={Item:{id:"minecraft:apple"}}] as @a[sort=nearest,limit=1] run function rematch:game/shop/info/apple
 execute if entity @e[distance=..1,tag=shop_item_display,sort=nearest,limit=1,nbt={Item:{id:"minecraft:suspicious_stew"}}] as @a[sort=nearest,limit=1] run function rematch:game/shop/info/suspicious_stew
 execute if entity @e[distance=..1,tag=shop_item_display,sort=nearest,limit=1,nbt={Item:{id:"minecraft:golden_apple"}}] as @a[sort=nearest,limit=1] run function rematch:game/shop/info/golden_apple
-return 1

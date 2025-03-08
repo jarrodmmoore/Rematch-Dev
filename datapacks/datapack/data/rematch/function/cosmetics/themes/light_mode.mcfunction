@@ -28,4 +28,3 @@ setblock -26 64 32 minecraft:campfire
 setblock 43 60 -12 minecraft:campfire
 time set day
 data merge block 35 83 0 {front_text:{messages:['{"text":"","clickEvent":{"action":"run_command","value":"/execute at @a run playsound minecraft:entity.lightning_bolt.thunder master @s ~ ~ ~ 1 0"},"type":"text"}','{"text":"Switch to","clickEvent":{"action":"run_command","value":"/function rematch:cosmetics/themes/dark_mode"},"italic":true,"type":"text"}','{"text":"Dark Mode","bold":true,"underlined":true,"type":"text"}','""']}}
-return 1

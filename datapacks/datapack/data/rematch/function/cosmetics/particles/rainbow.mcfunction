@@ -13,4 +13,3 @@ execute as @e[tag=Rainbow_display,tag=!playernoparticle] at @s run particle mine
 execute as @e[tag=Rainbow_display,tag=!playernoparticle] at @s run particle minecraft:dust{color:[0.0f,0.5f,0.8f],scale:1.0f} ~-0.5 ~0.4 ~ 0 0 0 1 5 normal @a
 execute as @e[tag=Rainbow_display,tag=!playernoparticle] at @s run particle minecraft:dust{color:[0.0f,0.0f,0.8f],scale:1.0f} ~-0.5 ~0.3 ~ 0 0 0 1 5 normal @a
 execute as @e[tag=Rainbow_display,tag=!playernoparticle] at @s run particle minecraft:dust{color:[0.6f,0.0f,0.6f],scale:1.0f} ~-0.5 ~0.2 ~ 0 0 0 1 5 normal @a
-return 1

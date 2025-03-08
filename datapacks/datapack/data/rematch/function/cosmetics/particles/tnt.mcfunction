@@ -55,4 +55,3 @@ execute as @e[type=minecraft:item,tag=Tnt,scores={particle_Tnt=250},limit=1] at 
 
 kill @e[type=minecraft:item,scores={particle_Tnt=250}]
 scoreboard players set @e[tag=Tnt,scores={particle_Tnt=50}] particle_Tnt 0
-return 1

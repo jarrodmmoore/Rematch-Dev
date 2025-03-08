@@ -28,4 +28,3 @@ execute positioned 1269 76 1063 run function rematch:game/gather/random/random_b
 execute positioned 1266 76 1062 run function rematch:game/gather/random/random_bookshelves
 execute positioned 1379 76 1330 run function rematch:game/gather/random/random_bookshelves
 execute positioned 1387 84 1326 run function rematch:game/gather/random/random_bookshelves
-return 1

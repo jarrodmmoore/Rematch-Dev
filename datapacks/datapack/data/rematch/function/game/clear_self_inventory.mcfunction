@@ -36,4 +36,3 @@ item replace entity @s hotbar.8 with minecraft:air
 item replace entity @s armor.feet with minecraft:air
 item replace entity @s armor.legs with minecraft:air
 item replace entity @s armor.chest with minecraft:air
-return 1

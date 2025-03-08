@@ -7,4 +7,3 @@ scoreboard players add @s age 1
 tag @s[scores={age=135..}] add die
 
 execute unless entity @s[tag=die] if block ~ ~1.7 ~ #rematch:missile_do_not_explode at @s run function rematch:game/pvp/items/laser_recursive_blue
-return 1

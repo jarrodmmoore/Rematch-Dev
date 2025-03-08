@@ -27,4 +27,3 @@ tag @a[tag=target] remove target
 tag @s remove self
 
 scoreboard players reset @s dropClock
-return 1

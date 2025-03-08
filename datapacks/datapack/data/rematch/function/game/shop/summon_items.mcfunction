@@ -60,4 +60,3 @@ summon minecraft:item 2023 26 2002 {Tags:["shop_item_display"],Age:-32768,Pickup
 summon minecraft:item 2023 26 2000 {Tags:["shop_item_display"],Age:-32768,PickupDelay:32767,Item:{id:"minecraft:golden_carrot",count:1}}
 summon minecraft:item 2024 26 1998 {Tags:["shop_item_display"],Age:-32768,PickupDelay:32767,Item:{id:"minecraft:glow_berries",count:1}}
 summon minecraft:item 2025 26 1996 {Tags:["shop_item_display"],Age:-32768,PickupDelay:32767,Item:{id:"minecraft:cookie",count:1}}
-return 1

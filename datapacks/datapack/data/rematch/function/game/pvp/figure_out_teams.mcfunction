@@ -26,4 +26,3 @@ execute if entity @e[scores={playerCountA=..3},name=Global,type=armor_stand,x=0,
 
 #teams enabled? assign players to teams.
 execute if entity @e[tag=teamplay,name=Global,type=armor_stand,x=0,y=50,z=49,dx=1,dy=1,dz=1] run function rematch:game/pvp/teams/assign_teams
-return 1

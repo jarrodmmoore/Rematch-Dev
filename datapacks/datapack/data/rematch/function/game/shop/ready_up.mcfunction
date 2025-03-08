@@ -2,5 +2,3 @@ execute at @s run playsound minecraft:entity.arrow.hit_player master @s ~ ~ ~ 1 
 scoreboard players set @s readyShop 1
 tellraw @s {"text":"\u2592\u2592\u2592\u2592\u2592\u2592\u2592\u2592\u2592\u2592\u2592\u2592\u2592\u2592\u2592\u2592\u2592\u2592\u2592\u2592\u2592\u2592\u2592\u2592\u2592\u2592\u2592\u2592\u2592\u2592\u2592\u2592","bold":true,"type":"text"}
 tellraw @s ["",{"text":"\n\n","type":"text"},{"text":"You are now ","italic":true,"color":"white","type":"text"},{"text":"[Ready]","bold":true,"color":"dark_green","type":"text"},{"text":"\n","type":"text"},{"text":"Click ","italic":true,"color":"white","type":"text"},{"text":"[here]","bold":true,"color":"dark_red","clickEvent":{"action":"run_command","value":"/function rematch:game/shop/undo_ready_up"},"hoverEvent":{"action":"show_text","contents":{"text":"Click here!","italic":true,"color":"dark_purple","type":"text"}},"type":"text"},{"text":" to undo.","italic":true,"color":"white","type":"text"}]
-
-return 1

@@ -37,4 +37,3 @@ execute positioned 1338 69 1085 unless entity @e[distance=..4,tag=chest] run fun
 execute positioned 1289 73 1061 unless entity @e[distance=..4,tag=chest] run function rematch:game/gather/random/random_chest
 execute positioned 1236 76 1062 unless entity @e[distance=..4,tag=chest] run function rematch:game/gather/random/random_chest
 execute positioned 1205 81 1167 unless entity @e[distance=..4,tag=chest] run function rematch:game/gather/random/random_chest
-return 1

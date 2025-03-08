@@ -48,4 +48,3 @@ execute as @e[tag=lobby_text,tag=lobby_u] at @s unless entity @e[type=minecraft:
 
 execute as @e[tag=lobby_text,tag=lobby_w] at @s if entity @e[type=minecraft:player,distance=..10,sort=nearest,limit=1] run item replace entity @s armor.head with minecraft:player_head[minecraft:profile={id:[I;-1802889341,1937852852,-2006180803,150428689],properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTcxZDkzY2MzNWVhY2JjNzQzNzhhOWExOTNmZmZhN2E1ODIwYjg3YWFmMjhmNzlkMzkyMTQzNzA4ZmY1Y2MifX19"}]}]
 execute as @e[tag=lobby_text,tag=lobby_w] at @s unless entity @e[type=minecraft:player,distance=..10,sort=nearest,limit=1] run item replace entity @s armor.head with minecraft:air
-return 1

@@ -15,4 +15,3 @@ scoreboard players reset @e[scores={tutorialState=43},name=Global,type=armor_sta
 
 #leave at bottom
 scoreboard players set @a[scores={tutorial=1..}] tutorial 0
-return 1

@@ -14,4 +14,3 @@ execute as @a[scores={tut_2=1..}] run function rematch:text/tutorial/gathering
 execute as @a[scores={tut_3=1..}] run function rematch:text/tutorial/shops
 execute as @a[scores={tut_4=1..}] run function rematch:text/tutorial/arena
 execute as @a[scores={tut_5=1..}] run function rematch:text/tutorial/other
-return 1

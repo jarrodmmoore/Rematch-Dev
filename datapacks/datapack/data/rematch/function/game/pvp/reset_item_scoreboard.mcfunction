@@ -15,4 +15,3 @@ scoreboard players reset @a electrocute
 scoreboard players reset @a burn
 scoreboard players reset @a sinkHole
 scoreboard players reset @a dropRedGlass
-return 1

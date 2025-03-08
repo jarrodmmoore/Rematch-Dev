@@ -1,2 +1,1 @@
 tellraw @s ["",{"text":"\n\n\n","type":"text"},{"text":"[Ender Pearl]","bold":true,"color":"dark_aqua","type":"text"},{"text":"\n\u2b25 Utility. Teleports the user to the thrown location.","type":"text"}]
-return 1

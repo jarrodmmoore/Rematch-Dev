@@ -21,4 +21,3 @@ execute as @e[tag=Brewing_display,tag=!playernoparticle,scores={brewParticle=6}]
 execute as @e[tag=Brewing_display,tag=!playernoparticle,scores={brewParticle=7}] at @s run particle minecraft:entity_effect{color:[0.0f,0.0f,0.0f,0.5f]} ~ ~1 ~ 0.902 0.000 1.000 1 0 normal @a
 execute as @e[tag=Brewing_display,tag=!playernoparticle,scores={brewParticle=8}] at @s run particle minecraft:entity_effect{color:[0.0f,0.0f,0.0f,1.0f]} ~ ~1 ~ 1.000 1.000 1.000 1 0 normal @a
 execute as @e[tag=Brewing_display,tag=!playernoparticle,scores={brewParticle=9}] at @s run particle minecraft:entity_effect{color:[0.0f,0.0f,0.0f,1.0f]} ~ ~1 ~ 0.000 0.000 0.000 1 0 normal @a
-return 1

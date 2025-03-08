@@ -1,2 +1,1 @@
 execute as @e[tag=Sweat,tag=!playernoparticle] at @s run particle minecraft:falling_water ~ ~1 ~ .2 .25 .2 0 2 normal @a
-return 1

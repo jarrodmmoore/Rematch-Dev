@@ -21,4 +21,3 @@ tag @s[tag=!hasMaps] add replaceMaps
 
 #right click to vote
 execute if entity @s[scores={carrotInput=1..,inputCooldown=..0},nbt={SelectedItem:{id:"minecraft:filled_map"}}] run function rematch:game/start/click_vote
-return 1

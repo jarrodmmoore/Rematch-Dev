@@ -44,4 +44,3 @@ tag @e[type=minecraft:armor_stand,tag=voteOption,tag=!invalidArena,scores={voteC
 execute as @e[tag=chosenArena,limit=1] run function rematch:game/start/vote_announce_index
 
 tag @e[tag=invalidArena] remove invalidArena
-return 1

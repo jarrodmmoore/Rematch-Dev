@@ -11,4 +11,3 @@ function rematch:game/gather/currency_playsound
 clear @s minecraft:player_head[minecraft:custom_name='"Berry"',minecraft:item_name='{"extra":["Berry"],"text":"EMU"}',minecraft:custom_data={emu_lock_name:'"Berry"'}]
 
 scoreboard players operation @e[tag=currencystand] math += @s playerID
-return 1

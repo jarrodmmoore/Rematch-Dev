@@ -6,4 +6,3 @@ execute if entity @s[scores={eatCookie2=100}] run clear @s minecraft:cookie[mine
 execute if entity @s[scores={eatCookie2=100}] run scoreboard players reset @s eatCookie2
 
 execute if entity @s[scores={eatCookie=1..}] run scoreboard players reset @s eatCookie
-return 1

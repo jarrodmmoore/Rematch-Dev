@@ -1,2 +1,1 @@
 tellraw @s ["",{"text":"\n\n","type":"text"},{"text":"[Angel Outfit]","bold":true,"color":"white","type":"text"},{"text":"\n\u2b25 Enhanced leather armor. Gives user slowfalling effect\nwhile also supplying one health potion per minute.","type":"text"}]
-return 1

@@ -11,4 +11,3 @@ execute as @a[gamemode=spectator] at @s unless entity @a[gamemode=adventure,dist
 
 #no players left? go back to the start of the map
 execute if entity @a[team=spectators] unless entity @a[team=!spectators] run function rematch:game/start/_initialize
-return 1

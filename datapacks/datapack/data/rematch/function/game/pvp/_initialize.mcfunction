@@ -72,7 +72,7 @@ bossbar set minecraft:unreadyprogress players
 bossbar set minecraft:timeremaining players
 
 #clear effects, then give blindness and invis for loading screen
-function help:ac476149d96da1bb0d62bbcfbe1f2666bb0fd49f2cf83665028b317da1710321
+effect clear @a
 clear @a minecraft:lime_concrete
 clear @a minecraft:red_concrete
 clear @a minecraft:carrot_on_a_stick
@@ -103,4 +103,3 @@ execute as @e[tag=chosenArena] run function rematch:game/pvp/arenas/tp_index
 
 #clear refund
 #clear @a[team=players] gold_ingot
-return 1

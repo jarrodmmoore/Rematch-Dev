@@ -22,4 +22,3 @@ kill @e[type=minecraft:trident]
 tag @e[name=Global,type=armor_stand,x=0,y=50,z=49,dx=1,dy=1,dz=1] remove noparticles
 tag @e[name=Global,type=armor_stand,x=0,y=50,z=49,dx=1,dy=1,dz=1] remove noPunch
 effect clear @a minecraft:weakness
-return 1

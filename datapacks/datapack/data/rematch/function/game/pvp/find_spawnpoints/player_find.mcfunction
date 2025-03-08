@@ -31,4 +31,3 @@ execute if entity @e[scores={playerSpawn=30},name=Global,type=armor_stand,x=0,y=
 
 scoreboard players add @e[name=Global,type=armor_stand,x=0,y=50,z=49,dx=1,dy=1,dz=1] playerSpawn 1
 scoreboard players set @e[scores={playerSpawn=31..},name=Global,type=armor_stand,x=0,y=50,z=49,dx=1,dy=1,dz=1] playerSpawn 1
-return 1

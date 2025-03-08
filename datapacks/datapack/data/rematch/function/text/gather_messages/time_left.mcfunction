@@ -85,4 +85,3 @@ execute if entity @e[tag=secondsCount,scores={isStart=1..,globalTimer=1,timer=1,
 execute if entity @e[tag=secondsCount,scores={isStart=1..,globalTimer=1,timer=1,isGreen=..0,isYellow=1..}] run tellraw @a {"text":"[Time remaining] : 1 seconds","color":"gold","type":"text"}
 execute if entity @e[tag=secondsCount,scores={isStart=1..,globalTimer=1,timer=1,isYellow=..0}] run tellraw @a {"text":"[Time remaining] : 1 seconds","color":"dark_red","type":"text"}
 execute if entity @e[tag=secondsCount,scores={isStart=1..,globalTimer=1,timer=1}] as @e[team=players] at @s run playsound minecraft:block.note_block.pling master @s ~ ~ ~ 1 2
-return 1

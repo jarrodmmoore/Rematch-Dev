@@ -8,4 +8,3 @@ execute if entity @e[scores={join=1000..},name=Global,type=armor_stand,x=0,y=50,
 scoreboard players set @e[name=Global,type=armor_stand,x=0,y=50,z=49,dx=1,dy=1,dz=1] playerCountZ 0
 execute as @a[team=!spectators] run scoreboard players add @e[name=Global,type=armor_stand,x=0,y=50,z=49,dx=1,dy=1,dz=1] playerCountZ 1
 execute if entity @e[scores={gameState=1..2,playerCountZ=..1},name=Global,type=armor_stand,x=0,y=50,z=49,dx=1,dy=1,dz=1] run function rematch:text/game_abandon
-return 1

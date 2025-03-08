@@ -1,5 +1,5 @@
 #tp to spawn maybe
-function help:e3c77337313e42a21ac2b7f8e75285f4ce7d3c30b2c7a83e57afd9f8a89cd7d0
+tp @s 1 51 50 118 8
 
 #guidebook check
 tag @s remove tutorial_book
@@ -18,7 +18,8 @@ execute unless entity @s[scores={tutorialState=1}] run tag @s add guidebook
 tag @s[tag=no_guidebook] remove no_guidebook
 
 function rematch:game/clear_self_inventory
-function help:b1b7b32c383cf7c8ae900b807469e3bc552abb04df1f75545c9693e4e338107d
+effect clear @s
+attribute @s minecraft:jump_strength base reset
 
 title @s times 0 45 5
 title @s title [""]
@@ -61,4 +62,3 @@ tag @s remove self
 tag @s remove readyup
 #if the lobby is already in "ready" mode, newly joined players are declared ready by default
 execute if entity @e[scores={readyState=1..},name=Global,type=armor_stand,x=0,y=50,z=49,dx=1,dy=1,dz=1] run tag @s add readyup
-return 1

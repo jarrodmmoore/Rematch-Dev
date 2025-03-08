@@ -1,3 +1,2 @@
 execute if entity @e[tag=teamplay,name=Global,type=armor_stand,x=0,y=50,z=49,dx=1,dy=1,dz=1] run scoreboard objectives setdisplay sidebar.team.red redlives
 execute if entity @e[tag=teamplay,name=Global,type=armor_stand,x=0,y=50,z=49,dx=1,dy=1,dz=1] run scoreboard objectives setdisplay sidebar.team.blue bluelives
-return 1

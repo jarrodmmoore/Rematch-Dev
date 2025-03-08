@@ -8,4 +8,3 @@ schedule function rematch:game/gather/generate_monsters 5t
 schedule function rematch:game/gather/generate_ores 6t
 schedule function rematch:game/gather/generate_purple_bees 7t
 schedule function rematch:game/gather/generate_wolves 8t
-return 1

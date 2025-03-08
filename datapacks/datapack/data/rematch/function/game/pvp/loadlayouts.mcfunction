@@ -22,5 +22,3 @@ execute at @s as @a[scores={layoutID_temp=0},limit=1] run item replace block ~ ~
 execute at @s run tp @s ~1 ~ ~
 execute if entity @s[scores={math=1..}] run function rematch:game/pvp/loadlayouts
 
-
-return 1

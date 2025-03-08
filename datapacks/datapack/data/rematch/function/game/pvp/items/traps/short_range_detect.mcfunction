@@ -19,4 +19,3 @@ tag @a[tag=target2] remove target2
 tag @s remove trapcheck
 
 kill @s[tag=die]
-return 1

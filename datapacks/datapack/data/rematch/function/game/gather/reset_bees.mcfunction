@@ -88,4 +88,3 @@ setblock 1425 75 1314 minecraft:air
 setblock 1416 77 1315 minecraft:air
 setblock 1406 79 1318 minecraft:air
 kill @e[type=minecraft:bee]
-return 1

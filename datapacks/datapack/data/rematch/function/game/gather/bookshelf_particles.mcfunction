@@ -28,4 +28,3 @@ execute if block 1269 76 1063 minecraft:bookshelf run particle minecraft:crit 12
 execute if block 1266 76 1062 minecraft:bookshelf run particle minecraft:crit 1266.5 76.5 1062.5 0 0 0 0.4 1 normal @a
 execute if block 1379 76 1330 minecraft:bookshelf run particle minecraft:crit 1379.5 76.5 1330.5 0 0 0 0.4 1 normal @a
 execute if block 1387 84 1326 minecraft:bookshelf run particle minecraft:crit 1387.5 84.5 1326.5 0 0 0 0.4 1 normal @a
-return 1

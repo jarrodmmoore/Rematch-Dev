@@ -33,4 +33,3 @@ execute positioned 1200 69 1260 run kill @e[distance=..4,tag=chest]
 execute positioned 1220 71 1265 run kill @e[distance=..4,tag=chest]
 execute positioned 1247 69 1286 run kill @e[distance=..4,tag=chest]
 execute positioned 1273 80 1299 run kill @e[distance=..4,tag=chest]
-return 1

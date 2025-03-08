@@ -44,4 +44,3 @@ tp @e[tag=generate_monsters] 1194 68 1338
 function rematch:game/gather/random/random_monster_spawn
 function rematch:game/gather/random/random_monster_spawn
 kill @e[tag=generate_monsters]
-return 1

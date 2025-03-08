@@ -16,4 +16,3 @@ worldborder damage buffer 0
 worldborder set 120 0
 worldborder set 5 90
 setworldspawn 1 51 50
-return 1

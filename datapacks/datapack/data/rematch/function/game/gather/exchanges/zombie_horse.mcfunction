@@ -10,4 +10,3 @@ function rematch:game/gather/currency_playsound
 scoreboard players reset @s kill_zomb_horse
 
 scoreboard players operation @e[tag=currencystand] math += @s playerID
-return 1

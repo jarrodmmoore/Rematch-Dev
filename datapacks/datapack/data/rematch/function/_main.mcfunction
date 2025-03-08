@@ -58,4 +58,3 @@ execute as @a unless entity @s[nbt={Inventory:[{id:"minecraft:written_book",Slot
 #execute as @e[tag=playerSpawn,tag=redteam] at @s run particle minecraft:dust 1 0 0 2 ~ ~ ~ 0 5 0 1 10 force @a
 #execute as @e[tag=playerSpawn,tag=blueteam] at @s run particle minecraft:dust .3 .3 1 2 ~ ~ ~ 0 5 0 1 10 force @a
 #=================================
-return 1

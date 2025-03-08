@@ -34,4 +34,3 @@ clear @s[scores={carrotInput=1..},nbt={SelectedItem:{id:"minecraft:filled_map",c
 clear @s[scores={carrotInput=1..},nbt={SelectedItem:{id:"minecraft:filled_map",components:{"minecraft:custom_data":{Tags:["mapv3"]}}}}] minecraft:filled_map[minecraft:custom_data~{Tags:["mapv3"]}]
 
 scoreboard players set @s inputCooldown 5
-return 1

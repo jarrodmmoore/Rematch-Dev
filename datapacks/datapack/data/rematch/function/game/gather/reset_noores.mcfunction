@@ -10,4 +10,3 @@ function rematch:game/gather/reset_purple_bees
 function rematch:game/gather/reset_trees
 function rematch:game/gather/reset_wolves
 scoreboard players reset @a berries_picked
-return 1

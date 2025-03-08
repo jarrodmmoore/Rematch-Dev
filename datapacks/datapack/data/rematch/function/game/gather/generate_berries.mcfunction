@@ -149,5 +149,3 @@ execute positioned 1347 71.5 1413 run function rematch:game/gather/random/random
 execute positioned 1345 71.5 1414 run function rematch:game/gather/random/random_berries
 execute positioned 1346 70.5 1415 run function rematch:game/gather/random/random_berries
 execute positioned 1345 70.5 1416 run function rematch:game/gather/random/random_berries
-
-return 1

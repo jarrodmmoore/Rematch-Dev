@@ -11,4 +11,3 @@ playsound minecraft:entity.generic.explode master @a ~ ~ ~ 1 1.7
 particle minecraft:explosion ^ ^1.5 ^.5 0.2 0.2 0.2 .01 1
 
 scoreboard players reset @s dropMissile
-return 1

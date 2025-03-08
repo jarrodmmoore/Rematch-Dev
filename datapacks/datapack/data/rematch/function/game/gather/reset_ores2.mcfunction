@@ -106,4 +106,3 @@ setblock 1206 71 1329 minecraft:stone
 
 #clear monsters in radius
 #kill @e[tag=monster]
-return 1

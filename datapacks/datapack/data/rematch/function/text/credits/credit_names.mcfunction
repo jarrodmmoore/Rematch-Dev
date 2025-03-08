@@ -34,4 +34,3 @@ tellraw @s {"text":"\u2b1c Woodii26","type":"text"}
 tellraw @s {"text":"\u2b1b xWafless","type":"text"}
 tellraw @s {"text":"A big shoutout to all of the map testers!","bold":true,"underlined":true,"type":"text"}
 tellraw @s {"text":"","type":"text"}
-return 1

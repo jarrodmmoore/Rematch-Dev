@@ -24,4 +24,3 @@ execute if entity @s[nbt={Item:{components:{"minecraft:custom_data":{Tags:["laun
 execute if entity @s[nbt={Item:{components:{"minecraft:custom_data":{Tags:["axolotl"]}}}}] run function rematch:game/pvp/items/deploy_on_ground/bottle_axolotl
 
 kill @s
-return 1
